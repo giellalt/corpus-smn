@@ -133,7 +133,7 @@ Test 8/46: ﻿Elvis Presley Elvis Aaron Presley, pyerebeht tubdum noomâin Elvi
 
 ----------
 goldstandard/converted/smn/speccorp/wikipedia/elvis_presley.txt.xml
-[ 8/46][FAIL fp2] : (, ()) => porgemáánu:[porgemáánnud] (msyn-num-acc-par)
+[ 8/46][FAIL fp2] : (, ()) => porgemáánu:[porgemáánnud] (msyn-num-acc-par) #FP
 goldstandard/converted/smn/speccorp/wikipedia/elvis_presley.txt.xml
 [ 8/46][FAIL fn2] noomâin:noomáin (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/elvis_presley.txt.xml
@@ -173,11 +173,11 @@ Test 11/46: Martin Luther King Jr. Martin Luther King Jr. (15. uđđâivemáán
 
 ----------
 goldstandard/converted/smn/speccorp/wikipedia/martin_luther_king_jr.correct.txt.xml
-[11/46][FAIL fp2] : (, ()) => lâi:[lijjii] (msyn-agr-sg3-pl3)
+[11/46][FAIL fp2] : (, ()) => lâi:[lijjii] (msyn-agr-sg3-pl3) #FP
 goldstandard/converted/smn/speccorp/wikipedia/martin_luther_king_jr.correct.txt.xml
-[11/46][FAIL fp2] : (, ()) => kuávdáš:[] (msyn-adj-pred-attr)
+[11/46][FAIL fp2] : (, ()) => kuávdáš:[] (msyn-adj-pred-attr) #FP <AttrPred> rule
 goldstandard/converted/smn/speccorp/wikipedia/martin_luther_king_jr.correct.txt.xml
-[11/46][FAIL fp2] : (, ()) => kunnen:[kunnei] (msyn-n-ess-ill)
+[11/46][FAIL fp2] : (, ()) => kunnen:[kunnei] (msyn-n-ess-ill) #FP
 Test 11 - Passes: 0, Fails: 3, Total: 3
 
 ----------
@@ -185,11 +185,11 @@ Test 12/46: Tuáváš . King šoodâi Atlantast, Georgia uásistaatâst Mich
 
 ----------
 goldstandard/converted/smn/speccorp/wikipedia/martin_luther_king_jr.correct.txt.xml
-[12/46][FAIL fp2] : (, ()) => Montgomery:[] (msyn-obj-sgnom-sgacc)
+[12/46][FAIL fp2] : (, ()) => Montgomery:[] (msyn-obj-sgnom-sgacc) #FP go lea Prop Plc
 goldstandard/converted/smn/speccorp/wikipedia/martin_luther_king_jr.correct.txt.xml
-[12/46][FAIL fp2] : (, ()) => raavâdviäsuin:[raavâdviäsoin, raavâdviäsooin] (msyn-advl-plloc-sgcom)
+[12/46][FAIL fp2] : (, ()) => raavâdviäsuin:[raavâdviäsoin, raavâdviäsooin] (msyn-advl-plloc-sgcom) #FP
 goldstandard/converted/smn/speccorp/wikipedia/martin_luther_king_jr.correct.txt.xml
-[12/46][FAIL fp2] : (, ()) => Lincoln:[Lincolnân] (msyn-obj-acc-ill)
+[12/46][FAIL fp2] : (, ()) => Lincoln:[Lincolnân] (msyn-obj-acc-ill) #FP
 goldstandard/converted/smn/speccorp/wikipedia/martin_luther_king_jr.correct.txt.xml
 [12/46][FAIL fn2] Tuáváš:Tuávááš (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/martin_luther_king_jr.correct.txt.xml
@@ -225,7 +225,7 @@ Test 15/46: Eellim.  Niillas Holmberg šoodâi syeinimáánu 2. peeivi 1990�
 goldstandard/converted/smn/speccorp/wikipedia/niillas_holmberg.correct.txt.xml
 [15/46][FAIL fp1] Mäenpää:Mäenpääin (, ()) => Mäenpää:[Mäenpään] (msyn-obj-acc-ill)
 goldstandard/converted/smn/speccorp/wikipedia/niillas_holmberg.correct.txt.xml
-[15/46][FAIL fp2] : (, ()) => lavluin:[] (syn-OVS-OSV)
+[15/46][FAIL fp2] : (, ()) => lavluin:[] (syn-OVS-OSV) #FP lavluin lea noun
 goldstandard/converted/smn/speccorp/wikipedia/niillas_holmberg.correct.txt.xml
 [15/46][FAIL fn2] jođetškuođij:joođeetškuođij (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/niillas_holmberg.correct.txt.xml
@@ -297,13 +297,13 @@ Test 21/46: Kuávžur (Salmo trutta) lii luosâlágán kyelišlaajâ. Siskál
 
 ----------
 goldstandard/converted/smn/speccorp/wikipedia/kuavzur.txt.xml
-[21/46][FAIL fp2] : (, ()) => kuávžurijd:[kuávžureh] (msyn-extsubj-acc-nom)
+[21/46][FAIL fp2] : (, ()) => kuávžurijd:[kuávžureh] (msyn-extsubj-acc-nom) #FP
 goldstandard/converted/smn/speccorp/wikipedia/kuavzur.txt.xml
-[21/46][FAIL fp2] : (, ()) => vánásub:[vánásu] (msyn-adj-pred-attr)
+[21/46][FAIL fp2] : (, ()) => vánásub:[vánásu] (msyn-adj-pred-attr)#FP
 goldstandard/converted/smn/speccorp/wikipedia/kuavzur.txt.xml
-[21/46][FAIL fp2] : (, ()) => raavâd:[raavvâd] (msyn-po-nom-gen)
+[21/46][FAIL fp2] : (, ()) => raavâd:[raavvâd] (msyn-po-nom-gen)#FP
 goldstandard/converted/smn/speccorp/wikipedia/kuavzur.txt.xml
-[21/46][FAIL fp2] : (, ()) => vandârdemlattim:[] (msyn-po-nom-gen)
+[21/46][FAIL fp2] : (, ()) => vandârdemlattim:[] (msyn-po-nom-gen) #FP
 goldstandard/converted/smn/speccorp/wikipedia/kuavzur.txt.xml
 [21/46][FAIL fn2] šlaajâid:šlaajáid (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/kuavzur.txt.xml
@@ -327,7 +327,7 @@ Test 22/46: ﻿Elvis Presley. Elvis Aaron Presley, pyerebeht tubdum noomâin El
 
 ----------
 goldstandard/converted/smn/speccorp/wikipedia/elvis_presley.correct.txt.xml
-[22/46][FAIL fp2] : (, ()) => porgemáánu:[porgemáánnud] (msyn-num-acc-par)
+[22/46][FAIL fp2] : (, ()) => porgemáánu:[porgemáánnud] (msyn-num-acc-par) #FP
 goldstandard/converted/smn/speccorp/wikipedia/elvis_presley.correct.txt.xml
 [22/46][FAIL fn2] noomâin:noomáin (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/elvis_presley.correct.txt.xml
@@ -373,9 +373,9 @@ Test 25/46: Jävri lii meerâst erinis čäciääldis. Jäävri čääci pi
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [25/46][PASS tp] javrijd:jäävrih (, ()) => javrijd:[jäävrih] (msyn-subj-ill-nom)
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
-[25/46][FAIL fp1] Sierânâstábáhtusâid:Sierânâstábáhtusah (, ()) => Sierânâstábáhtusâid:[Sierânâstábáhtusâi] (msyn-posspl-acc-gen)
+[25/46][FAIL fp1] Sierânâstábáhtusâid:Sierânâstábáhtusah (, ()) => Sierânâstábáhtusâid:[Sierânâstábáhtusâi] (msyn-posspl-acc-gen) #FP
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
-[25/46][FAIL fp2] : (, ()) => láá:[] (syn-OVS-OSV)
+[25/46][FAIL fp2] : (, ()) => láá:[] (syn-OVS-OSV) #FP
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [25/46][FAIL fn2] nuvt:nuuvt (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
@@ -405,9 +405,9 @@ Test 28/46: Porttipahta tahojävri Suáđigilist. Jäävrih láá juohhum eres 
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [28/46][PASS tp] rááhtám:ráhtám (, ()) => rááhtám:[ráhtám] (msyn-v-sg1-prfprc)
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
-[28/46][FAIL fp1] kováduvâid:kováduvah (, ()) => kováduvâid:[kováduvâi] (msyn-posspl-acc-gen)
+[28/46][FAIL fp1] kováduvâid:kováduvah (, ()) => kováduvâid:[kováduvâi] (msyn-posspl-acc-gen) #FP
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
-[28/46][FAIL fp2] : (, ()) => vyeligâš:[vyeligis] (msyn-adj-pred-attr)
+[28/46][FAIL fp2] : (, ()) => vyeligâš:[vyeligis] (msyn-adj-pred-attr) #maybe TP
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [28/46][FAIL fn2] vuáđutijppâ:vuáđutiijpâ (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
@@ -429,7 +429,7 @@ Test 29/46: Kaspiameerâ lii maailm stuárráámus jävri. Eennâmpállu vijđod
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [29/46][PASS tp] lii:láá (, ()) => lii:[laa, láá] (msyn-agr-sg3-pl3)
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
-[29/46][FAIL fp2] : (, ()) => miljovn:[miljovnid] (msyn-num-acc-par)
+[29/46][FAIL fp2] : (, ()) => miljovn:[miljovnid] (msyn-num-acc-par) #FP jus boahtá noun dan maŋŋel
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [29/46][FAIL fn2] toid:toh (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
@@ -446,7 +446,7 @@ goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [30/46][FAIL fp2] : (, ()) => lii:[laa, láá] (msyn-agr-sg3-pl3)
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [30/46][FAIL fp2] : (, ()) => ereslágáneh:[ereslágán, eresláván] (msyn-adj-pred-attr)
-goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
+goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml #TP
 [30/46][FAIL fn2] iälá:eelih (, ()) => :[] ()
 goldstandard/converted/smn/speccorp/wikipedia/javri.correct.txt.xml
 [30/46][FAIL fn2] maaŋgah ereslágáneh:maaŋgâlágáneh (, ()) => :[] ()
