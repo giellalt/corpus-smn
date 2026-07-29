@@ -1,0 +1,656 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Sämikielâg palvâlusah interneetist - Samediggi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2018</year><wordcount>132</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://www.samediggi.fi/samikielag-palvalusah-interneetist/?lang=an</origFileName><parallel_text xml:lang="fin" location="saamenkieliset_palvelut_verkossa.html"/><parallel_text xml:lang="sme" location="samegielat_balvalusat_interneahtas.html"/><parallel_text xml:lang="sms" location="saa_mkiollsaz_kaazzkoozz_internee_ttest.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Sämikielâg>"
+	"sämikielâg" A Attr @>N #1->2
+: 
+"<palvâlusah>"
+	"palvâlus" N Sem/Act Pl Nom @HNOUN #2->0
+: 
+"<interneetist>"
+	"internet" Err/Orth N Sem/Plc-abstr Sg Loc @<ADVL #3->2
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Sämikuávlu>"
+	"sämikuávlu" N Sem/Plc Sg Gen @>N #1->2
+: 
+"<kieldah>"
+	"kieldâ" N Sem/Org Pl Nom @HNOUN #2->0
+: 
+"<Iänuduv>"
+	"Iänudâh" N Prop Sem/Plc Sg Gen @>N #3->4
+: 
+"<kieldâ>"
+	"kieldâ" N Sem/Org Sg Gen @>N #4->2
+	"kieldâ" N Sem/Org Sg Nom @HNOUN #4->2
+: 
+"<(>"
+	"(" PUNCT LEFT #5->6
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #6->2
+"<)>"
+	")" PUNCT RIGHT #7->8
+: 
+"<Aanaar>"
+	"Aanaar" N Prop Sem/Plc Sg Gen @>N #8->9
+: 
+"<kieldâ>"
+	"kieldâ" N Sem/Org Sg Gen @>N #9->4
+	"kieldâ" N Sem/Org Sg Nom @<SPRED #9->4
+: 
+"<(>"
+	"(" PUNCT LEFT #10->11
+"<tavesämi->"
+	"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp/SplitR Cmp @>N #11->16
+		"tave" N Sem/Plc Cmp/SgNom Cmp #11->16
+"<,>"
+	"," CLB #12->11
+"<aanaarsämi>"
+	"aanaarsämi" ? @X #13->0
+"<->"
+	"-" PUNCT MIDDLE #14->15
+: 
+"<ja>"
+	"ja" CC @CVP #15->0
+: 
+"<nuorttâsämikielân>"
+	"nuorttâsämikielâ" N Sem/Lang Sg Ill @X #16->0
+"<)>"
+	")" PUNCT RIGHT #17->18
+: 
+"<Suáđigil>"
+	"Suáđigil" N Prop Sem/Plc Sg Gen @>N #18->19
+: 
+"<kieldâ>"
+	"kieldâ" N Sem/Org Sg Gen @>N #19->11
+	"kieldâ" N Sem/Org Sg Nom @<SPRED #19->11
+: 
+"<(>"
+	"(" PUNCT LEFT #20->21
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @X #21->0
+"<)>"
+	")" PUNCT RIGHT #22->23
+: 
+"<Ucjuv>"
+	"Ucjuuhâ" N Prop Sem/Plc Attr @>N #23->24
+: 
+"<kieldâ>"
+	"kieldâ" N Sem/Org Sg Gen @>N #24->26
+	"kieldâ" N Sem/Org Sg Nom @<SPRED #24->26
+: 
+"<(>"
+	"(" PUNCT LEFT #25->26
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @X #26->0
+"<)>"
+	")" PUNCT RIGHT #27->26
+:  
+"<¶>"
+	"¶" CLB #28->2
+:\n
+"<KELA>"
+	"KELA" N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #1->14
+	"Kela" N Prop Sem/Sur Sg Nom @SUBJ> #1->14
+	"Kela" N Prop Sem/Org ACR Sg Nom @SUBJ> #1->14
+"</>"
+	"/" PUNCT MIDDLE #2->3
+: 
+"<AIL>"
+	"AIL" N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #3->14
+: 
+"<(>"
+	"(" PUNCT LEFT #4->5
+"<tavesämi->"
+	"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp/SplitR Cmp @>N #5->10
+		"tave" N Sem/Plc Cmp/SgNom Cmp #5->10
+"<,>"
+	"," CLB #6->5
+"<aanaarsämi>"
+	"aanaarsämi" ? @X #7->0
+"<->"
+	"-" PUNCT MIDDLE #8->9
+: 
+"<ja>"
+	"ja" CC @CVP #9->14
+: 
+"<nuorttâsämikielân>"
+	"nuorttâsämikielâ" N Sem/Lang Sg Ill @ADVL> #10->14
+"<)>"
+	")" PUNCT RIGHT #11->12
+: 
+"<Návt>"
+	"návt" Adv @ADVL> #12->14
+: 
+"<tun>"
+	"tun" Pron Pers Sg2 Nom @SUBJ> #13->14
+: 
+"<tiilááh>"
+	"tiiláđ" <mv> V TV Ind Prs Sg2 @FMV #14->0
+: 
+"<Kela>"
+	"Kela" N Prop Sem/Org ACR Sg Gen @>N #15->16
+	"Kela" N Prop Sem/Sur Sg Gen @>N #15->16
+: 
+"<sajanmäksim>"
+	"sajanmäksiđ" Ex/V Der/NomAct N Sg Gen @>N #16->17
+: 
+"<taksimääđhi>"
+	"mätki" N Sem/Act Sg Acc @<OBJ #17->14
+		"taksi" N Sem/Veh Cmp/SgNom Cmp #17->14
+: 
+"<Säämist>"
+	"Säämi" N Prop Sem/Plc Sg Loc @<ADVL #18->14
+: 
+"<¶>"
+	"¶" CLB #19->14
+:\n
+"<MELA>"
+	"Mela" N Prop Sem/Plc Sg Nom @HNOUN #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #3->1
+"<)>"
+	")" PUNCT RIGHT #4->3
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Maistraat>"
+	"maistraat" N Sem/Org Sg Gen @>N #1->3
+	"maistraat" N Sem/Org Sg Nom @HNOUN #1->3
+: 
+"<sämikielâg>"
+	"sämikielâg" A Attr @>N #2->3
+: 
+"<luámáttuvah>"
+	"luámáttâh" N Sem/Txt Pl Nom @HNOUN #3->0
+: 
+"<maistraat>"
+	"maistraat" N Sem/Org Sg Gen @>N #4->5
+: 
+"<toimâsuárgán>"
+	"toimâsyergi" N Sem/Dummytag Sg Ill @<ADVL #5->3
+: 
+"<lohtâseijee>"
+	"lohtâseijee" A Attr @>N #6->7
+: 
+"<aašijn>"
+	"äšši" N Sem/Semcon Pl Loc @<ADVL #7->3
+: 
+"<(>"
+	"(" PUNCT LEFT #8->9
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #9->3
+"<)>"
+	")" PUNCT RIGHT #10->9
+: 
+"<¶>"
+	"¶" CLB #11->3
+:\n
+"<Viäruhaldâttâh>"
+	"haldâttâh" N Sem/Org Sg Nom @HNOUN #1->0
+		"viäru" N Sem/Rule Cmp/SgNom Cmp #1->0
+: 
+"<sämikielâg>"
+	"sämikielâg" A Attr @>N #2->3
+: 
+"<luámáttuvah>"
+	"luámáttâh" N Sem/Txt Pl Nom @HNOUN #3->1
+: 
+"<(>"
+	"(" PUNCT LEFT #4->5
+"<tavesämi->"
+	"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp/SplitR Cmp @>N #5->10
+		"tave" N Sem/Plc Cmp/SgNom Cmp #5->10
+"<,>"
+	"," CLB #6->5
+"<aanaarsämi>"
+	"aanaarsämi" ? @X #7->0
+"<->"
+	"-" PUNCT MIDDLE #8->9
+: 
+"<ja>"
+	"ja" CC @CVP #9->0
+: 
+"<nuorttâsämikielân>"
+	"nuorttâsämikielâ" N Sem/Lang Sg Ill @X #10->0
+"<)>"
+	")" PUNCT RIGHT #11->10
+: 
+"<¶>"
+	"¶" CLB #12->1
+:\n
+"<PI-KUÁVDÁŠ>"
+	"kuávdáš" N Sem/Plc Sg Nom @HNOUN #1->0
+		"PI" N Prop Sem/Org ACR Dyn Cmp/Hyph Cmp #1->0
+: 
+"<Ášástâllâm>"
+	"ášástâllâđ" Ex/V Der/NomAct N Sg Nom @HNOUN #2->1
+: 
+"<Laapi>"
+	"Lappi" N Prop Sem/Plc Sg Gen @>N #3->4
+: 
+"<PI-toimâttuvvâst>"
+	"toimâttâh" N Sem/Org Sg Loc @ADVL> #4->6
+		"PI" N Prop Sem/Org ACR Dyn Cmp/Hyph Cmp #4->6
+: 
+"<Sämikielâg>"
+	"sämikielâg" A Attr @>N #5->6
+: 
+"<luámáttuvah>"
+	"luámáttâh" N Sem/Txt Pl Nom @HNOUN #6->2
+"<:>"
+	":" CLB #7->1
+: 
+"<Starttâruttâucâmuš>"
+	"Starttâruttâucâmuš" ? @X #8->0
+: 
+"<(>"
+	"(" PUNCT LEFT #9->10
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @X #10->0
+"<)>"
+	")" PUNCT RIGHT #11->12
+: 
+"<Jotkâucâmuš>"
+	"ucâmuš" N Sem/Dummytag Sg Nom @<SPRED #12->6
+		"jotkâ" N Sem/Dummytag Cmp/SgNom Cmp #12->6
+: 
+"<starttâruuđâst>"
+	"starttâruuđâst" ? @X #13->0
+: 
+"<(>"
+	"(" PUNCT LEFT #14->15
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @X #15->0
+"<)>"
+	")" PUNCT RIGHT #16->15
+: 
+"<¶>"
+	"¶" CLB #17->1
+:\n
+"<Laapi>"
+	"Lappi" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<keerrivriehti>"
+	"keerrivriehti" N Sem/Org Sg Nom @HNOUN #2->0
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #4->2
+"<)>"
+	")" PUNCT RIGHT #5->6
+: 
+"<Alemus>"
+	"alemus" Ex/A Der/Superl A Attr @>N #6->7
+	"olluv" Ex/A Der/Superl A Attr @>N #6->7
+: 
+"<haldâttâhriehti>"
+	"haldâttâhriehti" N Sem/Org Sg Nom @<SPRED #7->2
+: 
+"<(>"
+	"(" PUNCT LEFT #8->9
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #9->2
+"<)>"
+	")" PUNCT RIGHT #10->11
+: 
+"<Alemus>"
+	"alemus" Ex/A Der/Superl A Attr @>N #11->12
+	"olluv" Ex/A Der/Superl A Attr @>N #11->12
+: 
+"<riehti>"
+	"riehti" N Sem/Org_Rule Sg Nom @<SPRED #12->0
+: 
+"<(>"
+	"(" PUNCT LEFT #13->14
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #14->2
+"<)>"
+	")" PUNCT RIGHT #15->16
+: 
+"<Riehtiäššialmai>"
+	"almai" N Sem/Hum Pl Gen @>N #16->2
+		"äšši" N Sem/Semcon Cmp/SgNom Cmp #16->2
+			"riehti" N Sem/Org_Rule Cmp/SgNom Cmp #16->2
+	"almai" N Sem/Hum Sg Ill @<ADVL #16->2
+		"äšši" N Sem/Semcon Cmp/SgNom Cmp #16->2
+			"riehti" N Sem/Org_Rule Cmp/SgNom Cmp #16->2
+	"almai" N Sem/Hum Sg Nom @<SPRED #16->2
+		"äšši" N Sem/Semcon Cmp/SgNom Cmp #16->2
+			"riehti" N Sem/Org_Rule Cmp/SgNom Cmp #16->2
+: 
+"<(>"
+	"(" PUNCT LEFT #17->18
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #18->2
+"<)>"
+	")" PUNCT RIGHT #19->20
+: 
+"<Riehtikansler>"
+	"kansler" N Sem/Hum Sg Gen @>N #20->21
+		"riehti" N Sem/Org_Rule Cmp/SgNom Cmp #20->21
+: 
+"<virgádâh>"
+	"virgádâh" N Sem/Dummytag Sg Nom @<SPRED #21->0
+: 
+"<(>"
+	"(" PUNCT LEFT #22->23
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #23->2
+"<)>"
+	")" PUNCT RIGHT #24->23
+: 
+"<¶>"
+	"¶" CLB #25->2
+:\n
+"<Riehtiministeriö>"
+	"riehtiministeriö" N Sem/Org Sg Gen @>N #1->2
+: 
+"<tieđettemčáluseh>"
+	"tieđettemčáálus" N Sem/Txt Pl Nom @HNOUN #2->0
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #4->2
+"<)>"
+	")" PUNCT RIGHT #5->6
+: 
+"<Riehtiministeriö->"
+	"riehtiministeriö" N Sem/Org Cmp/SgNom Cmp/SplitR Cmp @>N #6->8
+: 
+"<tiätu>"
+	"tiätu" A Attr @>N #7->8
+: 
+"<riehti-iššeest>"
+	"riehti-iše" N Sem/Dummytag Sg Loc @<ADVL #8->2
+: 
+"<(>"
+	"(" PUNCT LEFT #9->10
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #10->2
+"<)>"
+	")" PUNCT RIGHT #11->10
+: 
+"<¶>"
+	"¶" CLB #12->2
+:\n
+"<Ucceeblohováldálâš>"
+	"ucceeblohováldálâš" A Attr @>N #1->3
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<tavesämi->"
+	"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp/SplitR Cmp @>N #3->8
+		"tave" N Sem/Plc Cmp/SgNom Cmp #3->8
+"<,>"
+	"," CLB #4->3
+"<aanaarsämi>"
+	"aanaarsämi" ? @X #5->0
+"<->"
+	"-" PUNCT MIDDLE #6->7
+: 
+"<ja>"
+	"ja" CC @CVP #7->8
+: 
+"<nuorttâsämikielân>"
+	"nuorttâsämikielâ" N Sem/Lang Sg Ill @HNOUN #8->0
+"<)>"
+	")" PUNCT RIGHT #9->10
+: 
+"<Täsiárvuváldálâš>"
+	"Täsiárvuváldálâš" ? @X #10->0
+: 
+"<(>"
+	"(" PUNCT LEFT #11->12
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #12->8
+"<)>"
+	")" PUNCT RIGHT #13->14
+: 
+"<Pärniäššiváldálâš>"
+	"pärniäššiváldálâš" N Sem/Hum Sg Nom @<SPRED #14->8
+: 
+"<(>"
+	"(" PUNCT LEFT #15->16
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #16->8
+"<)>"
+	")" PUNCT RIGHT #17->16
+: 
+"<¶>"
+	"¶" CLB #18->8
+:\n
+"<Valvira>"
+	"Valvira" ? @X #1->0
+: 
+"<Pyeccee>"
+	"pyeccee" A Attr @>N #2->3
+: 
+"<vuoigâdvuođah>"
+	"vuoigâdvuotâ" N Sem/Rule Pl Nom @HNOUN #3->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #4->5
+: 
+"<tieđettemčáálus>"
+	"tieđettemčáálus" N Sem/Txt Sg Nom @HNOUN #5->3
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+"<tavesämi->"
+	"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp/SplitR Cmp @>N #7->12
+		"tave" N Sem/Plc Cmp/SgNom Cmp #7->12
+"<,>"
+	"," CLB #8->7
+"<aanaarsämi>"
+	"aanaarsämi" ? @X #9->0
+"<->"
+	"-" PUNCT MIDDLE #10->11
+: 
+"<ja>"
+	"ja" CC @CVP #11->0
+: 
+"<nuorttâsämikielân>"
+	"nuorttâsämikielâ" N Sem/Lang Sg Ill @X #12->0
+"<)>"
+	")" PUNCT RIGHT #13->12
+: 
+"<¶>"
+	"¶" CLB #14->3
+:\n
+"<Sosiaal->"
+	"sosiaal" A Cmp/Attr Sem/Dummytag Cmp/SplitR Cmp @>N #1->3
+: 
+"<já>"
+	"já" CC @CNP #2->1
+: 
+"<tiervâsvuođâministeriö>"
+	"ministeriö" N Sem/Org Sg Nom @HNOUN #3->0
+		"tiervâsvuotâ" N Sem/State Cmp/SgGen Cmp #3->0
+: 
+"<Keevi>"
+	"Keevi" ? @X #4->0
+: 
+"<ečiriijâd>"
+	"ečiriijâd" ? @X #5->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #6->7
+"<tieđettemčáálus>"
+	"tieđettemčáálus" N Sem/Txt Sg Nom @HNOUN #7->3
+: 
+"<(>"
+	"(" PUNCT LEFT #8->9
+"<tavesämi->"
+	"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp/SplitR Cmp @>N #9->14
+		"tave" N Sem/Plc Cmp/SgNom Cmp #9->14
+"<,>"
+	"," CLB #10->9
+"<aanaarsämi>"
+	"aanaarsämi" ? @X #11->0
+"<->"
+	"-" PUNCT MIDDLE #12->13
+: 
+"<ja>"
+	"ja" CC @CVP #13->0
+: 
+"<nuorttâsämikielân>"
+	"nuorttâsämikielâ" N Sem/Lang Sg Ill @X #14->0
+"<)>"
+	")" PUNCT RIGHT #15->14
+: 
+"<¶>"
+	"¶" CLB #16->3
+:\n
+"<Oulu>"
+	"Oulu" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<pispekodde>"
+	"pispekodde" N Sem/Org Sg Nom @HNOUN #2->0
+: 
+"<Sämipargo>"
+	"pargo" N Sem/Act_Plc Sg Nom @HNOUN #3->2
+		"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #3->2
+	"pargo" N Sem/Act_Plc Sg Gen @>N #3->2
+		"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #3->2
+: 
+"<(>"
+	"(" PUNCT LEFT #4->5
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #5->2
+"<)>"
+	")" PUNCT RIGHT #6->5
+: 
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<Laapi>"
+	"Lappi" N Prop Sem/Plc Sg Gen @X #1->0
+: 
+"<ruáváástkodde>"
+	"ruáváástkodde" ? @X #2->0
+: 
+"<Ucjuv>"
+	"Ucjuuhâ" N Prop Sem/Plc Attr @>N #3->4
+: 
+"<servikodde>"
+	"servikodde" N Sem/Org Sg Nom @HNOUN #4->1
+: 
+"<(>"
+	"(" PUNCT LEFT #5->6
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #6->4
+"<)>"
+	")" PUNCT RIGHT #7->6
+: 
+"<¶>"
+	"¶" CLB #8->8
+:\n
+"<Meccihaldâttâs>"
+	"meccihaldâttâs" N Sem/Dummytag Sg Nom @HNOUN #1->3
+	"meccihaldâttâs" N Sem/Dummytag Sg Gen @>N #1->3
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #3->3
+"<)>"
+	")" PUNCT RIGHT #4->3
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Laapi>"
+	"Lappi" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<etikuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @SUBJ> #2->5
+		"eeti" N Sem/State Cmp/SgNom Cmp #2->5
+: 
+"<“>"
+	"“" PUNCT LEFT #3->4
+"<Návt>"
+	"návt" Adv @ADVL> #4->5
+: 
+"<kiävtáh>"
+	"kevttiđ" <mv> V TV Ind Prs Sg2 @FMV #5->0
+: 
+"<etinummeer>"
+	"etinummeer" N Sem/Dummytag Sg Acc @<OBJ #6->5
+: 
+"<112>"
+	"112" Num Arab Sg Loc Attr @>N #7->8
+: 
+"<Suomâst>"
+	"Suomâ" N Prop Sem/Plc Sg Loc @<ADVL #8->5
+"<”>"
+	"”" PUNCT RIGHT #9->8
+: 
+"<(>"
+	"(" PUNCT LEFT #10->11
+"<pohjoissaameksi>"
+	"pohjoissaameksi" ? @X #11->0
+"<)>"
+	")" PUNCT RIGHT #12->11
+: 
+"<¶>"
+	"¶" CLB #13->5
+:\n
+"<Laapi>"
+	"Lappi" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<litto>"
+	"litto" N Sem/Org Sg Nom @HNOUN #2->0
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #4->2
+"<)>"
+	")" PUNCT RIGHT #5->4
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<Palgâsij>"
+	"paalgâs" N Sem/Org Pl Gen @>N #1->2
+: 
+"<ovtâstus>"
+	"ovtâstus" N Sem/Dummytag Sg Gen @>N #2->4
+	"ovtâstus" N Sem/Dummytag Sg Nom @HNOUN #2->4
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #4->4
+"<)>"
+	")" PUNCT RIGHT #5->4
+: 
+"<¶>"
+	"¶" CLB #6->6
+:\n
+"<Sämimuseo>"
+	"sämimuseo" N Sem/Build_Org Sg Gen @>N #1->2
+: 
+"<Sijdâ>"
+	"sijdâ" N Sem/Org Sg Nom @HNOUN #2->0
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<tavesämikielân>"
+	"tavesämikielâ" N Sem/Lang Sg Ill @<ADVL #4->2
+"<)>"
+	")" PUNCT RIGHT #5->4
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+
+]]></dependency></body></document>

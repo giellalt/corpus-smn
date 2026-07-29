@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Pyeri aalmugijkoskâsâš maailm algâaalmugij peivi! - Samediggi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2018</year><wordcount>46</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://www.samediggi.fi/2018/08/09/pyeri-aalmugijkoskasas-maailm-algaaalmugij-peivi/?lang=an</origFileName><parallel_text xml:lang="eng" location="international_day_of_the_world_s_indigenous_peoples_9_august.html"/><parallel_text xml:lang="fin" location="hyvaa_kansainvalista_maailman_alkuperaiskansojen_paivaa_.html"/><parallel_text xml:lang="sme" location="buori_riikkaidgaskasas_mailmmi_eamialbmogiid_beaivvi_.html"/><parallel_text xml:lang="sms" location="siogg_meeraikoskksaz_maai_lm_alggmeerai_peei_v_.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Pyeri>"
+	"pyeri" A Attr @>N #1->3
+: 
+"<aalmugijkoskâsâš>"
+	"aalmugijkoskâsâš" A Attr @>N #2->3
+: 
+"<maailm>"
+	"maailm" N Sem/Plc Sg Gen @>N #3->4
+: 
+"<algâaalmugij>"
+	"algâaalmug" N Sem/Group_Hum Pl Gen @>N #4->5
+: 
+"<peivi>"
+	"peivi" N Sem/Time Sg Nom @HNOUN #5->0
+"<!>"
+	"!" CLB #6->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ovtâstum aalmugij>"
+	"Ovtâstum aalmugeh" N Prop Sem/Org Pl Gen @>N #1->3
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<OA>"
+	"OA" N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #3->8
+	"Oa" N Prop Sem/Org Sg Nom @SUBJ> #3->8
+"<)>"
+	")" PUNCT RIGHT #4->5
+: 
+"<kulluuttâm>"
+	"kulluuttiđ" V TV PrfPrc @X #5->0
+: 
+"<algâaalmugij>"
+	"algâaalmug" N Sem/Group_Hum Pl Gen @>N #6->7
+: 
+"<peeivi>"
+	"peivi" N Sem/Time Sg Gen @ADVL> #7->8
+: 
+"<viettih>"
+	"viettiđ" <mv> V TV Ind Prs Pl3 @FMV #8->0
+: 
+"<porgemáánu>"
+	"porgemáánu" N Sem/Plant Sg Gen @>N #9->11
+: 
+"<9.>"
+	"9" A Arab Ord Attr @>N #10->11
+: 
+"<peeivi>"
+	"peivi" N Sem/Time Sg Gen @<ADVL #11->8
+"<.>"
+	"." CLB #12->8
+: 
+"<Peivi>"
+	"peivi" N Sem/Time Sg Nom @SUBJ> #1->2
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<ohtâ>"
+	"ohtâ" Num Sg Nom @<SUBJ #3->2
+: 
+"<säämi>"
+	"säämi" N Sem/Hum_Lang Sg Gen @>N #4->5
+: 
+"<liipu>"
+	"lippu" N Sem/Obj-ling Sg Gen @Num< #5->3
+: 
+"<liputtempeeivijn>"
+	"peivi" N Sem/Time Pl Loc @<ADVL #6->2
+		"liputtiđ" Ex/V IV Der/NomAct N Cmp/SgNom Cmp #6->2
+: 
+"<,>"
+	"," CLB #7->8
+: 
+"<moh>"
+	"mii" Pron Rel Pl Nom @SUBJ> #8->9
+: 
+"<láá>"
+	"leđe" <mv> V IV Ind Prs Pl3 @FS-N< #9->6
+: 
+"<kyehtnubáloh>"
+	"kyehtnubáloh" Num Sg Nom @<SUBJ #10->9
+"<.>"
+	"." CLB #11->2
+: 
+"<Ive>"
+	"ihe" N Sem/Time Sg Gen @ADVL> #1->6
+: 
+"<2018>"
+	"2018" Num Arab Sem/Year Sg Nom @SUBJ> #2->4
+: 
+"<fáddán>"
+	"fáddá" N Sem/Semcon Ess @SPRED> #3->6
+: 
+"<lii>"
+	"leđe" <aux> V IV Ind Prs Sg3 @FAUX #4->0
+: 
+"<algâaalmugij>"
+	"algâaalmug" N Sem/Group_Hum Pl Gen @ADVL> #5->6
+: 
+"<varrim>"
+	"varriđ" <mv> V IV PrfPrc @IMV #6->4
+: 
+"<já>"
+	"já" CC @CNP #7->6
+: 
+"<jotteem>"
+	"jotteem" N Sem/Dummytag Sg Gen @<ADVL #8->4
+	"jotteem" N Sem/Dummytag Sg Nom @<SUBJ #8->4
+: 
+"<(>"
+	"(" PUNCT LEFT #9->10
+"<Indigenous>"
+	"Indigenous" ? @X #10->0
+: 
+"<peoples>"
+	"peoples" ? @X #11->0
+"<’>"
+	"’" PUNCT RIGHT #12->13
+: 
+"<migration>"
+	"migration" ? @X #13->0
+: 
+"<and>"
+	"and" ? @X #14->0
+: 
+"<movement>"
+	"movement" ? @X #15->0
+"<)>"
+	")" PUNCT RIGHT #16->15
+"<.>"
+	"." CLB #17->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Luuvâ>"
+	"luuhâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+	"luuppâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<lase>"
+	"lase" Adv @<ADVL #2->1
+	"lase" N Sem/Amount Sg Acc @<OBJ #2->1
+	"lase" N Sem/Amount Sg Nom @<SUBJ #2->1
+: 
+"<peeivist>"
+	"peivi" N Sem/Time Sg Loc @<ADVL #3->1
+"<:>"
+	":" CLB #4->1
+:  
+"<¶>"
+	"¶" CLB #5->1
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Samediggi - Saamelaiskäräjät - Škovlim uáinusist algâaalmugfoorum uálgitábáhtusâst</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><wordcount>297</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Børre Gaup" email="albbas@gmail.com"/><multilingual><language xml:lang="fin"/></multilingual><origFileName>http://www.samediggi.fi/index2.php?option=com_content&amp;task=view&amp;id=472&amp;lang=anaras.html</origFileName><parallel_text xml:lang="sme" location="index2.php_option=com_content_task=view_id=472_lang=davvi.html"/><parallel_text xml:lang="sms" location="index2.php_option=com_content_task=view_id=472_lang=nuortta.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Škovlim>"
+	"škovlim" N Sem/Dummytag Sg Gen @>N #1->2
+: 
+"<uáinusist>"
+	"uáinus" N Sem/Perc-phys Sg Loc @HNOUN #2->0
+: 
+"<algâaalmugfoorum>"
+	"foorum" N Sem/Plc-abstr Sg Acc @<OBJ #3->3
+		"aalmug" N Sem/Group_Hum Cmp/SgNom Cmp #3->3
+			"algâ" N Sem/Time Cmp/SgNom Cmp #3->3
+: 
+"<uálgitábáhtusâst>"
+	"uálgitábáhtusâst" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->2
+:\n
+"<Suomâ>"
+	"Suomâ" N Prop Sem/Plc Sg Nom @SUBJ> #1->12
+	"Suomâ" N Prop Sem/Plc Sg Gen @>N #1->12
+	"suomâ" N Sem/Lang Sg Nom @SUBJ> #1->12
+	"suomâ" N Sem/Lang Sg Gen @>N #1->12
+: 
+"<já>"
+	"já" CC @CNP #2->1
+: 
+"<Ecuador>"
+	"Ecuador" N Prop Sem/Plc Sg Gen @>N #3->5
+: 
+"<pissoo>"
+	"pissoo" A Attr @>N #4->5
+: 
+"<ovdâstâsah>"
+	"ovdâstâs" N Sem/Dummytag Pl Nom @SUBJ> #5->1
+"<,>"
+	"," CLB #6->5
+: 
+"<Ecuador>"
+	"Ecuador" N Prop Sem/Plc Sg Gen @>N #7->8
+: 
+"<kulttuurärbiministeriö>"
+	"ministeriö" N Sem/Org Sg Gen @>N #8->1
+		"ärbi" N Sem/Dummytag Cmp/SgNom Cmp #8->1
+			"kulttuur" N Sem/Domain Cmp/SgNom Cmp #8->1
+	"ministeriö" N Sem/Org Sg Nom @SUBJ> #8->1
+		"ärbi" N Sem/Dummytag Cmp/SgNom Cmp #8->1
+			"kulttuur" N Sem/Domain Cmp/SgNom Cmp #8->1
+: 
+"<sehe>"
+	"sehe" Adv @ADVL> #9->12
+: 
+"<Suomâ>"
+	"Suomâ" N Prop Sem/Plc Sg Gen @>N #10->11
+: 
+"<sämitigge>"
+	"sämitigge" N Sem/Org Sg Nom @SUBJ> #11->12
+: 
+"<uárnejii>"
+	"orniđ" <mv> V TV Ind Prt Pl3 @FMV #12->0
+: 
+"<oovtâst>"
+	"oovtâst" Adv @<ADVL #13->12
+: 
+"<OA>"
+	"OA" N Prop Sem/Org ACR Dyn Sg Gen @>N #14->15
+	"Oa" N Prop Sem/Org Sg Gen @>N #14->15
+: 
+"<algâaalmugfoorum>"
+	"foorum" N Sem/Plc-abstr Sg Gen @>N #15->17
+		"aalmug" N Sem/Group_Hum Cmp/SgNom Cmp #15->17
+			"algâ" N Sem/Time Cmp/SgNom Cmp #15->17
+	"foorum" N Sem/Plc-abstr Sg Nom @<SUBJ #15->17
+		"aalmug" N Sem/Group_Hum Cmp/SgNom Cmp #15->17
+			"algâ" N Sem/Time Cmp/SgNom Cmp #15->17
+: 
+"<10.>"
+	"10" A Arab Ord Attr @>N #16->17
+: 
+"<čuákkim>"
+	"čuákkim" N Sem/Event Sg Nom @<SUBJ #17->12
+	"čuákkim" N Sem/Event Sg Gen @<ADVL #17->12
+: 
+"<uálgitábáhtusâidiskuin>"
+	"uálgitábáhtusâidiskuin" ? @X #18->0
+"<,>"
+	"," CLB #19->20
+: 
+"<mon>"
+	"mii" Pron Rel Sg Gen @>N #20->21
+: 
+"<teeman>"
+	"teema" N Sem/Semcon Ess @OPRED> #21->24
+	"teema" N Sem/Semcon Sg Ill @ADVL> #21->24
+: 
+"<lijjii>"
+	"leđe" <aux> V IV Ind Prt Pl3 @FS-N< #22->17
+: 
+"<algâaalmugij>"
+	"algâaalmug" N Sem/Group_Hum Pl Gen @ADVL> #23->24
+: 
+"<škovlim>"
+	"škovliđ" <mv> V TV PrfPrc @FS-N<IMV #24->22
+: 
+"<já>"
+	"já" CC @CNP #25->24
+: 
+"<vuoigâdvuotâ>"
+	"vuoigâdvuotâ" N Sem/Rule Sg Nom @<SUBJ #26->22
+: 
+"<uásálistiđ>"
+	"uásálistiđ" V IV Inf @N< #27->26
+: 
+"<miärádâstohâmân>"
+	"toohâm" N Sem/Dummytag Sg Ill @<ADVL #28->26
+		"miärádâs" N Sem/Rule Cmp/SgNom Cmp #28->26
+"<.>"
+	"." CLB #29->12
+: 
+"<Tábáhtusah>"
+	"tábáhtus" N Sem/Event Pl Nom @SUBJ> #1->2
+: 
+"<uárnejuvvojii>"
+	"orniđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prt Pl3 @FMV #2->0
+: 
+"<New Yorkist>"
+	"New York" N Prop Sem/Plc Sg Loc @<ADVL #3->2
+: 
+"<tuorâstuv>"
+	"tuorâstâh" N Sem/Time Sg Gen @>A #4->5
+: 
+"<19.>"
+	"19" A Arab Ord Attr @>N #5->6
+: 
+"<vyesimáánu>"
+	"vyesimáánu" N Sem/Time Sg Nom @<ADVL #6->2
+	"vyesimáánu" N Sem/Time Sg Gen @<ADVL #6->2
+"<.>"
+	"." CLB #7->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Värisaavâjođetteijee>"
+	"värisaavâjođetteijee" N Sem/Hum NomAg Sg Nom @>N #1->2
+: 
+"<Irja>"
+	"Irja" N Prop Sem/Fem Attr @>N #2->3
+: 
+"<Seurujärvi-Kari>"
+	"Kari" N Prop Sem/Fem Sg Gen @>N #3->4
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #3->4
+	"Kari" N Prop Sem/Mal Sg Gen @>N #3->4
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #3->4
+	"Kari" N Prop Sem/Fem Sg Gen @>N #3->4
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #3->4
+	"Kari" N Prop Sem/Mal Sg Gen @>N #3->4
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #3->4
+: 
+"<saahâ>"
+	"saahâ" N Sem/Semcon Sg Nom @HNOUN #4->0
+: 
+"<eŋgâlâskielân>"
+	"eŋgâlâskielâ" N Sem/Lang Sg Ill @<ADVL #5->4
+"<.>"
+	"." CLB #6->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tábáhtus>"
+	"tábáhtus" N Sem/Event Sg Gen @>A #1->1
+: 
+"<uuđâs>"
+	"uuđâs" N Sem/Dummytag Sg Nom @HNOUN #2->1
+: 
+"<suomâkielân>"
+	"suomâkielâ" N Sem/Lang Sg Ill @<ADVL #3->2
+"<:>"
+	":" CLB #4->4
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Irja>"
+	"Irja" N Prop Sem/Fem Attr @>N #1->2
+: 
+"<Seurujärvi-Karin>"
+	"Kari" N Prop Sem/Fem Sg Ill @<ADVL #2->0
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #2->0
+	"Kari" N Prop Sem/Mal Sg Ill @<ADVL #2->0
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #2->0
+	"Karin" N Prop Sem/Fem Sg Nom @HNOUN #2->0
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #2->0
+	"Kari" N Prop Sem/Fem Sg Ill @<ADVL #2->0
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #2->0
+	"Kari" N Prop Sem/Mal Sg Ill @<ADVL #2->0
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #2->0
+	"Karin" N Prop Sem/Fem Sg Nom @HNOUN #2->0
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #2->0
+: 
+"<Puhe>"
+	"Puhe" ? @X #3->0
+: 
+"<(>"
+	"(" PUNCT LEFT #4->5
+"<Englanniksi>"
+	"Englanniksi" ? @X #5->0
+"<)>"
+	")" PUNCT RIGHT #6->5
+: 
+"<¶>"
+	"¶" CLB #7->2
+:\n
+
+]]></dependency></body></document>

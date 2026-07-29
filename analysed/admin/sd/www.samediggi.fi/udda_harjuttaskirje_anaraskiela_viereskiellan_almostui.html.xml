@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Uđđâ hárjuttâskirje anarâškielâ viereskiellân almostui - Samediggi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2019</year><wordcount>72</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://www.samediggi.fi/2019/07/03/udda-harjuttaskirje-anaraskiela-viereskiellan-almostui/?lang=an</origFileName><parallel_text xml:lang="fin" location="uusi_vieraan_kielen_harjoituskirja_inarinsaameen_ilmestyi.html"/><parallel_text xml:lang="sme" location="odda_vieris_giela_harjehusgirji_anarasgillii_almmuhuvvon.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Uđđâ>"
+	"uuđâs" A Attr @>N #1->2
+: 
+"<hárjuttâskirje>"
+	"kirje" N Sem/Txt Sg Gen @>N #2->3
+		"hárjuttâs" N Sem/Act Cmp/SgNom Cmp #2->3
+: 
+"<anarâškielâ>"
+	"anarâškielâ" N Sem/Lang Sg Gen @>N #3->4
+: 
+"<viereskiellân>"
+	"viereskielâ" N Sem/Dummytag Ess @ADVL> #4->5
+: 
+"<almostui>"
+	"almostuđ" <mv> V IV Ind Prt Sg3 @FMV #5->0
+: 
+"<¶>"
+	"¶" CLB #6->5
+:\n
+"<Uáppeeh>"
+	"uáppee" N Sem/Hum NomAg Pl Nom @SUBJ> #1->11
+"<,>"
+	"," CLB #2->3
+: 
+"<kiäh>"
+	"kii" Pron Rel Pl Nom @SUBJ> #3->4
+: 
+"<loheh>"
+	"luuhâđ" <mv> V TV Ind Prs Pl3 @FS-N< #4->1
+: 
+"<anarâškielâ>"
+	"anarâškielâ" N Sem/Lang Sg Gen @>N #5->6
+: 
+"<viereskiellân>"
+	"viereskielâ" N Sem/Dummytag Ess @<OPRED #6->4
+: 
+"<vuáđumáttááttâs>"
+	"vuáđumáttááttâs" N Sem/Edu Sg Nom @SUBJ> #7->11
+	"vuáđumáttááttâs" N Sem/Edu Sg Gen @>N #7->11
+: 
+"<viiđâd>"
+	"viiđâd" A Ord Attr @>N #8->9
+: 
+"<luokkaast>"
+	"luokka" N Sem/Buildpart_Cat_Ctain_Mat Sg Loc @<ADVL #9->4
+"<,>"
+	"," CLB #10->9
+: 
+"<uážžuh>"
+	"uážžuđ" <mv> V TV Ind Prs Pl3 @FMV #11->0
+: 
+"<uđđâ>"
+	"uuđâs" A Attr @>N #12->13
+: 
+"<hárjuttâskirje>"
+	"kirje" N Sem/Txt Sg Acc @<OBJ #13->11
+		"hárjuttâs" N Sem/Act Cmp/SgNom Cmp #13->11
+"<.>"
+	"." CLB #14->11
+: 
+"<Hitruu>"
+	"hitruu" A Sg Nom @HNOUN #1->0
+"<!>"
+	"!" CLB #2->1
+: 
+"<3>"
+	"3" Num Arab Sem/Time-clock Sg Nom @SUBJ> #1->0
+: 
+"<Hárjuttâsah>"
+	"hárjuttâs" N Sem/Act Pl Nom @SUBJ> #2->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #3->4
+"<pargokirje>"
+	"pargokirje" N Sem/Txt Sg Nom @SUBJ> #4->5
+: 
+"<lii>"
+	"leđe" <aux> V IV Ind Prs Sg3 @FAUX #5->0
+: 
+"<almostum>"
+	"almostuđ" <mv> V IV PrfPrc @IMV #6->5
+"<.>"
+	"." CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Pargokirje>"
+	"pargokirje" N Sem/Txt Sg Nom @SUBJ> #1->2
+: 
+"<lii>"
+	"leđe" <aux> V IV Ind Prs Sg3 @FAUX #2->0
+: 
+"<čáállám>"
+	"čäälliđ" <mv> V TV PrfPrc @IMV #3->2
+: 
+"<Henna>"
+	"Henna" N Prop Sem/Fem Attr @>N #4->5
+: 
+"<Aikio>"
+	"Aikio" N Prop Sem/Sur Sg Nom @<SUBJ #5->2
+: 
+"<já>"
+	"já" CC @CVP #6->2
+: 
+"<tot>"
+	"tot" Pron Dem Sg Nom @SUBJ> #7->8
+: 
+"<siskeeld>"
+	"siskeldiđ" <mv> V TV Ind Prs Sg3 @FMV #8->2
+: 
+"<hárjuttâsâid>"
+	"hárjuttâs" N Sem/Act Pl Acc @<OBJ #9->8
+: 
+"<Hitruu>"
+	"hitruu" A Sg Nom @<SUBJ #10->8
+	"hitruu" Adv @<ADVL #10->8
+"<!>"
+	"!" CLB #11->2
+: 
+"<Skipáreh>"
+	"skippáár" N Sem/Hum Pl Nom @HNOUN #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+"<tekstâkiirján>"
+	"kirje" N Sem/Txt Sg Ill @X #3->0
+		"tekstâ" N Sem/Txt Cmp/SgNom Cmp #3->0
+"<.>"
+	"." CLB #4->1
+: 
+"<Kirje>"
+	"kirje" N Sem/Txt Sg Nom @SUBJ> #1->2
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<uáivildum>"
+	"uáivildiđ" Ex/V TV Der/Pass V PrfPrc @>N #3->4
+: 
+"<vuáđumáttááttâs>"
+	"vuáđumáttááttâs" N Sem/Edu Sg Nom @<SUBJ #4->6
+	"vuáđumáttááttâs" N Sem/Edu Sg Gen @>N #4->6
+: 
+"<viiđâd>"
+	"viiđâd" A Ord Attr @>N #5->6
+: 
+"<luokka>"
+	"luokka" N Sem/Buildpart_Cat_Ctain_Mat Sg Nom @<SUBJ #6->2
+: 
+"<viereskielâ>"
+	"viereskielâ" N Sem/Dummytag Sg Gen @>N #7->8
+: 
+"<máttááttâsân>"
+	"máttááttâs" N Sem/Edu Sg Ill @<ADVL #8->2
+"<.>"
+	"." CLB #9->2
+: 
+"<Hárjuttâskirje>"
+	"kirje" N Sem/Txt Sg Nom @SUBJ> #1->4
+		"hárjuttâs" N Sem/Act Cmp/SgNom Cmp #1->4
+	"kirje" N Sem/Txt Sg Gen @ADVL> #1->4
+		"hárjuttâs" N Sem/Act Cmp/SgNom Cmp #1->4
+: 
+"<pargopitáin>"
+	"pargopitáin" ? @X #2->0
+: 
+"<tun>"
+	"tun" Pron Pers Sg2 Nom @SUBJ> #3->4
+: 
+"<peesah>"
+	"peessâđ" <aux> V IV Ind Prs Sg2 @FAUX #4->0
+: 
+"<hárjuttâllâđ>"
+	"hárjuttâllâđ" <mv> V TV Inf @IMV #5->4
+: 
+"<tekstâkirje>"
+	"kirje" N Sem/Txt Sg Gen @>N #6->7
+		"tekstâ" N Sem/Txt Cmp/SgNom Cmp #6->7
+: 
+"<siskáldâsâid>"
+	"siskáldâs" N Sem/Semcon Pl Acc @<OBJ #7->5
+: 
+"<maaŋgâpiälálávt>"
+	"maaŋgâpiälálâš" Ex/A Der/AAdv Adv @<ADVL #8->5
+"<.>"
+	"." CLB #9->4
+: 
+"<Puoh>"
+	"puoh" Pron Indef Attr @>N #1->2
+: 
+"<kirjeest>"
+	"kirje" N Sem/Txt Sg Loc @ADVL> #2->5
+: 
+"<almostum>"
+	"almostuđ" V IV PrfPrc @>N #3->4
+: 
+"<ruossâháid>"
+	"ruossâhâš" N Sem/Dummytag Pl Acc @OBJ> #4->5
+	"ruossâhâš" N Sem/Dummytag Pl Ill @ADVL> #4->5
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #5->0
+: 
+"<máhđulâš>"
+	"máhđulâš" A Sg Nom @<SUBJ #6->5
+: 
+"<toohâđ>"
+	"toohâđ" V TV Inf @<SUBJ #7->5
+: 
+"<meid>"
+	"meid" Adv @<ADVL #8->5
+: 
+"<neetist>"
+	"netti" N Sem/Dummytag Sg Loc @<ADVL #9->5
+: 
+"<Cloubi-vuáđun>"
+	"Cloubi-vuáđun" ? @X #10->0
+"<.>"
+	"." CLB #11->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tiilámeh>"
+	"tiiláđ" Ex/V TV Der/NomAct N Err/Orth Pl Nom @HNOUN #1->9
+"<:>"
+	":" CLB #2->9
+: 
+"<kirjatilaus(at)samediggi.fi>"
+	"kirjatilaus(at)samediggi.fi" URL #3->3
+: 
+"<Uđđâ>"
+	"uuđâs" A Attr @>N #4->5
+: 
+"<nettisiijđoh>"
+	"nettisijđo" N Sem/Plc-abstr Pl Nom @SUBJ> #5->9
+: 
+"<oppâmateriaal>"
+	"oppâmateriaal" N Sem/Txt Sg Gen @>N #6->7
+: 
+"<tiilám>"
+	"tiiláđ" Ex/V TV Der/NomAct N Sg Gen @>P #7->8
+: 
+"<várás>"
+	"várás" Po @ADVL> #8->10
+: 
+"<láá>"
+	"leđe" <aux> V IV Ind Prs Pl3 @FAUX #9->0
+: 
+"<puátimin>"
+	"puáttiđ" <mv> V IV Actio Ess @IMV #10->9
+"<!>"
+	"!" CLB #11->9
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Škovlim>"
+	"škovlim" N Sem/Dummytag Sg Nom @HNOUN #1->3
+	"škovlim" N Sem/Dummytag Sg Gen @>N #1->3
+: 
+"<já>"
+	"já" CC @CNP #2->1
+: 
+"<oppâmateriaal>"
+	"oppâmateriaal" N Sem/Txt Sg Acc @<OBJ #3->3
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2014</year><wordcount>13</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.samediggi.fi/index.php?option=com_docman&amp;task=doc_download&amp;gid=2533&amp;Itemid=10</origFileName><parallel_text xml:lang="fin" location="projektityontoimiinari2015.pdf"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 125457 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Kulttuurikeskus>"
+	"Kulttuurikeskus" ? @X #1->0
+: 
+"<Sajos>"
+	"Sajos" N Prop Sem/Plc Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<FIN-99870>"
+	"FIN-99870" N Prop Sem/Org ACR Dyn Sg Gen @>N #1->2
+: 
+"<Aanaar>"
+	"Aanaar" N Prop Sem/Plc Sg Nom @HNOUN #2->0
+"</>"
+	"/" PUNCT MIDDLE #3->4
+: 
+"<Anár>"
+	"Anár" ? @X #4->0
+"</>"
+	"/" PUNCT MIDDLE #5->6
+: 
+"<Inari>"
+	"Inari" N Prop Sem/Plc Sg Nom @HNOUN #6->2
+: 
+"<www.samediggi.fi>"
+	"www.samediggi.fi" URL #7->7
+: 
+"<etunimi.sukunimi@samediggi.fi>"
+	"etunimi.sukunimi@samediggi.fi" URL #8->8
+: 
+"<¶>"
+	"¶" CLB #9->2
+:\n
+
+]]></dependency></body></document>

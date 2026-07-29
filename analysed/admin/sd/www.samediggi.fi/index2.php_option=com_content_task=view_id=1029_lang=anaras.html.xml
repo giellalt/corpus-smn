@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Samediggi - Saamelaiskäräjät - Sämmilij kulttuur- já kielâpiervâltooimân 550 000 eurod</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2015</year><wordcount>120</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.samediggi.fi/index2.php?option=com_content&amp;task=view&amp;id=1029&amp;lang=anaras</origFileName><parallel_text xml:lang="fin" location="index2.php_option=com_content_task=view_id=1029_lang=finnish.html"/><parallel_text xml:lang="sme" location="index2.php_option=com_content_task=view_id=1029_lang=davvi.html"/><parallel_text xml:lang="sms" location="index2.php_option=com_content_task=view_id=1029_lang=nuortta.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Sämmilij>"
+	"sämmilâš" N Sem/Hum Pl Gen @>N #1->2
+: 
+"<kulttuur->"
+	"kulttuur" N Sem/Domain Cmp/SgNom Cmp/SplitR Cmp @>N #2->4
+: 
+"<já>"
+	"já" CC @CNP #3->2
+: 
+"<kielâpiervâltooimân>"
+	"toimâ" N Sem/Act Sg Ill @<ADVL #4->4
+		"piervâl" N Sem/Build Cmp/SgNom Cmp #4->4
+			"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #4->4
+: 
+"<550 000>"
+	"550 000" Num Arab Ess @HNOUN #5->4
+	"550 000" Num Arab Pl Abe Attr @>N #5->4
+	"550 000" Num Arab Pl Ill @HNOUN #5->4
+	"550 000" Num Arab Sg Com @HNOUN #5->4
+	"550 000" Num Arab Sg Nom @HNOUN #5->4
+: 
+"<eurod>"
+	"euro" N Sem/Curr Par @X #6->0
+: 
+"<¶>"
+	"¶" CLB #7->7
+:\n
+"<Máttááttâs->"
+	"máttááttâs" N Sem/Edu Cmp/SgNom Cmp/SplitR Cmp @>N #1->13
+: 
+"<já>"
+	"já" CC @CNP #2->1
+: 
+"<kulttuurministeriö>"
+	"ministeriö" N Sem/Org Sg Nom @SUBJ> #3->4
+		"kulttuur" N Sem/Domain Cmp/SgNom Cmp #3->4
+: 
+"<mieđettij>"
+	"mieđettiđ" <mv> V TV Ind Prt Sg3 @FMV #4->0
+: 
+"<20.2.2015>"
+	"20.2.2015" Num Arab Sem/Date Sg Nom @<ADVL #5->4
+: 
+"<sämitiigán>"
+	"sämitigge" N Sem/Org Sg Ill @<ADVL #6->4
+: 
+"<staatâtoorjân>"
+	"toorjâ" N Sem/Money Ess @<OPRED #7->4
+		"staatâ" N Sem/Org Cmp/SgGen Cmp #7->4
+: 
+"<550 000>"
+	"550 000" Num Arab Ess @<ADVL #8->4
+	"550 000" Num Arab Par @<ADVL #8->4
+	"550 000" Num Arab Pl Abe Attr @>N #8->4
+	"550 000" Num Arab Pl Acc @<OBJ #8->4
+	"550 000" Num Arab Pl Ill @<ADVL #8->4
+	"550 000" Num Arab Sg Acc @<OBJ #8->4
+	"550 000" Num Arab Sg Com @<ADVL #8->4
+	"550 000" Num Arab Sg Nom @<SUBJ #8->4
+: 
+"<eurod>"
+	"euro" N Sem/Curr Par @X #9->0
+: 
+"<sämmilij>"
+	"sämmilâš" N Sem/Hum Pl Gen @>N #10->11
+: 
+"<kulttuur->"
+	"kulttuur" N Sem/Domain Cmp/SgNom Cmp/SplitR Cmp @>N #11->13
+: 
+"<já>"
+	"já" CC @CNP #12->11
+: 
+"<kielâpiervâltooimân>"
+	"toimâ" N Sem/Act Sg Ill @<ADVL #13->4
+		"piervâl" N Sem/Build Cmp/SgNom Cmp #13->4
+			"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #13->4
+: 
+"<sämikuávlust>"
+	"sämikuávlu" N Sem/Plc Sg Loc @<ADVL #14->4
+"<.>"
+	"." CLB #15->4
+:\r \r\r
+"<Kielâpiervâl>"
+	"kielâpiervâl" N Sem/Event Sg Nom @SUBJ> #1->2
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<algâaalmug>"
+	"algâaalmug" N Sem/Group_Hum Sg Nom @<SUBJ #3->2
+: 
+"<párnáid>"
+	"páárnáš" N Sem/Hum Pl Acc @<OBJ #4->2
+	"páárnáš" N Sem/Hum Pl Ill @<ADVL #4->2
+: 
+"<uáivildum>"
+	"uáivildiđ" Ex/V TV Der/Pass V PrfPrc @>N #5->6
+: 
+"<tipšosaje>"
+	"saje" N Sem/Plc Sg Nom @SUBJ> #6->11
+		"tipšo" N Sem/Hum Cmp/SgNom Cmp #6->11
+"<,>"
+	"," CLB #7->6
+: 
+"<kost>"
+	"kost" Adv @ADVL> #8->11
+: 
+"<puoh>"
+	"puoh" Pron Indef Attr @>N #9->10
+: 
+"<toimâ>"
+	"toimâ" N Sem/Act Sg Nom @SUBJ> #10->11
+: 
+"<tábáhtuvá>"
+	"tábáhtuđ" <mv> V IV Ind Prs Sg3 @FMV #11->2
+: 
+"<aalgâ>"
+	"algâ" N Sem/Time Sg Gen @>P #12->13
+: 
+"<rääjist>"
+	"rääjist" Po @<ADVL #13->11
+: 
+"<tuše>"
+	"tuše" Adv @<ADVL #14->11
+: 
+"<sämikielân>"
+	"sämikielâ" N Sem/Lang Sg Ill @<ADVL #15->11
+"<.>"
+	"." CLB #16->2
+: 
+"<Toimâ>"
+	"toimâ" N Sem/Act Sg Nom @SUBJ> #1->2
+: 
+"<olášuttoo>"
+	"olášuttiđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<nuuvt>"
+	"nuuvt" Adv @<ADVL #3->2
+"<,>"
+	"," CLB #4->5
+: 
+"<ete>"
+	"ete" CS @CVP #5->6
+: 
+"<uárnejeh>"
+	"orniđ" <mv> V TV Ind Prs Pl3 @FS-<ADVL #6->2
+: 
+"<vuálá>"
+	"vuálá" Adv @<ADVL #7->6
+: 
+"<škovlâahasijd>"
+	"škovlâahasâš" A Pl Acc @<OBJ #8->6
+	"škovlâahasâš" A Pl Ill @<ADVL #8->6
+: 
+"<párnáid>"
+	"páárnáš" N Sem/Hum Pl Acc @<OBJ #9->6
+	"páárnáš" N Sem/Hum Pl Ill @<ADVL #9->6
+: 
+"<sämikielâlii>"
+	"sämikielâlâš" A Sg Gen @>N #10->11
+: 
+"<peivitipšo>"
+	"peivitipšo" N Sem/Dummytag Sg Nom @<SUBJ #11->15
+	"peivitipšo" N Sem/Dummytag Sg Gen @>N #11->15
+: 
+"<teikâ>"
+	"teikâ" CC @CNP #12->11
+: 
+"<ávus>"
+	"ávus" A Attr @>N #13->14
+: 
+"<arâšoddâdemtooimâ>"
+	"toimâ" N Sem/Act Sg Gen @>N #14->16
+		"arâšoddâdem" N Sem/Dummytag Cmp/SgNom Cmp #14->16
+: 
+"<sehe>"
+	"sehe" Adv @<ADVL #15->6
+: 
+"<škovlâlijd>"
+	"škovlâlâš" N Sem/Hum Pl Acc @<OBJ #16->6
+	"škovlâlâš" N Sem/Hum Pl Ill @<ADVL #16->6
+: 
+"<eehidpeivitooimâ>"
+	"toimâ" N Sem/Act Sg Gen @>N #17->18
+		"peivi" N Sem/Time Cmp/SgNom Cmp #17->18
+			"eehid" N Sem/Time Cmp/SgNom Cmp #17->18
+: 
+"<kielâlávgumvuáháduv>"
+	"vuáhádâh" N Sem/Semcon Sg Gen @<ADVL #18->6
+		"kielâlávgum" N Sem/Dummytag Cmp/SgNom Cmp #18->6
+: 
+"<keevtin>"
+	"keevtin" ? @X #19->0
+"<.>"
+	"." CLB #20->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sämmilij>"
+	"sämmilâš" N Sem/Hum Pl Gen @>N #1->2
+: 
+"<kielâpiervâltooimâ>"
+	"toimâ" N Sem/Act Sg Gen @>N #2->3
+		"piervâl" N Sem/Build Cmp/SgNom Cmp #2->3
+			"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #2->3
+: 
+"<staatâtorjuuh>"
+	"toorjâ" N Sem/Money Pl Nom @HNOUN #3->0
+		"staatâ" N Sem/Org Cmp/SgGen Cmp #3->0
+: 
+"<ive>"
+	"ihe" N Sem/Time Sg Gen @ADVL> #4->5
+: 
+"<2015>"
+	"2015" Num Arab Sem/Year Sg Nom @HNOUN #5->3
+"<:>"
+	":" CLB #6->3
+: 
+"<¶>"
+	"¶" CLB #7->3
+:\n
+"<1.>"
+	"1" A Arab Ord Attr @>N #1->2
+:    
+"<Nuorttâlâškielâ>"
+	"nuorttâlâškielâ" N Sem/Lang Sg Gen @>N #2->3
+: 
+"<kielâpiervâl>"
+	"kielâpiervâl" N Sem/Event Sg Nom @HNOUN #3->5
+	"kielâpiervâl" N Sem/Event Sg Gen @>N #3->5
+"<,>"
+	"," CLB #4->3
+: 
+"<Avveel>"
+	"Avveel" N Prop Sem/Plc Sg Nom @HNOUN #5->0
+: 
+"<69 275>"
+	"69 275" Num Arab Sg Nom @HNOUN #6->5
+: 
+"<€>"
+	"€" N Symbol Err/Orth Sg Gen @Num< #7->6
+: 
+"<¶>"
+	"¶" CLB #8->5
+:\n
+"<2.>"
+	"2" A Arab Ord Attr @>N #1->2
+:    
+"<Nuorttâlâškielâ>"
+	"nuorttâlâškielâ" N Sem/Lang Sg Gen @>N #2->3
+: 
+"<kielâpiervâl>"
+	"kielâpiervâl" N Sem/Event Sg Nom @HNOUN #3->5
+	"kielâpiervâl" N Sem/Event Sg Gen @>N #3->5
+"<,>"
+	"," CLB #4->3
+: 
+"<Čevetjävri>"
+	"Čevetjävri" N Prop Sem/Plc Sg Nom @HNOUN #5->0
+: 
+"<71 400>"
+	"71 400" Num Arab Sg Nom @HNOUN #6->5
+: 
+"<€>"
+	"€" N Symbol Err/Orth Sg Gen @Num< #7->6
+: 
+"<¶>"
+	"¶" CLB #8->5
+:\n
+"<3.>"
+	"3" A Arab Ord Attr @>N #1->2
+:    
+"<Anarâškielâ>"
+	"anarâškielâ" N Sem/Lang Sg Gen @>N #2->3
+: 
+"<kielâpiervâl>"
+	"kielâpiervâl" N Sem/Event Sg Nom @HNOUN #3->0
+: 
+"<I>"
+	"I" N Prop Sem/Hum ACR @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<Aanaar>"
+	"Aanaar" N Prop Sem/Plc Sg Nom @HNOUN #6->4
+: 
+"<85 110,16>"
+	"85 110,16" Num Arab Sg Nom @HNOUN #7->6
+: 
+"<€>"
+	"€" N Symbol Err/Orth Sg Gen @Num< #8->7
+: 
+"<¶>"
+	"¶" CLB #9->3
+:\n
+"<4.>"
+	"4" A Arab Ord Attr @>N #1->2
+:    
+"<Anarâškielâ>"
+	"anarâškielâ" N Sem/Lang Sg Gen @>N #2->3
+: 
+"<kielâpiervâl>"
+	"kielâpiervâl" N Sem/Event Sg Nom @HNOUN #3->0
+: 
+"<II>"
+	"II" N Prop Sem/Org ACR Dyn Sg Gen @>N #4->3
+	"II" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #4->3
+	"II" N Prop Sem/Org ACR Sg Gen @>N #4->3
+	"II" N Prop Sem/Org ACR Sg Nom @HNOUN #4->3
+"<,>"
+	"," CLB #5->4
+: 
+"<Avveel>"
+	"Avveel" N Prop Sem/Plc Sg Nom @HNOUN #6->4
+: 
+"<73 966,67>"
+	"73 966,67" Num Arab Sg Nom @HNOUN #7->6
+: 
+"<€>"
+	"€" N Symbol Err/Orth Sg Gen @Num< #8->7
+: 
+"<¶>"
+	"¶" CLB #9->3
+:\n
+"<5.>"
+	"5" A Arab Ord Attr @>N #1->2
+:    
+"<Anarâškielâ>"
+	"anarâškielâ" N Sem/Lang Sg Gen @>N #2->3
+: 
+"<kielâpiervâl>"
+	"kielâpiervâl" N Sem/Event Sg Nom @HNOUN #3->0
+: 
+"<III>"
+	"III" N Prop Sem/Org ACR Sg Gen @>N #4->3
+	"III" N Prop Sem/Org ACR Dyn Sg Gen @>N #4->3
+	"III" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #4->3
+	"III" N Prop Sem/Org ACR Sg Nom @HNOUN #4->3
+"<,>"
+	"," CLB #5->4
+: 
+"<Aanaar>"
+	"Aanaar" N Prop Sem/Plc Sg Nom @HNOUN #6->4
+: 
+"<105 701,42>"
+	"105 701,42" Num Arab Sg Nom @HNOUN #7->6
+: 
+"<€>"
+	"€" N Symbol Err/Orth Sg Gen @Num< #8->7
+: 
+"<¶>"
+	"¶" CLB #9->3
+:\n
+"<6.>"
+	"6" A Arab Ord Attr @>N #1->2
+:    
+"<Tavesämikielâ>"
+	"tavesämikielâ" N Sem/Lang Sg Gen @>N #2->3
+: 
+"<kielâpiervâl>"
+	"kielâpiervâl" N Sem/Event Sg Nom @HNOUN #3->5
+	"kielâpiervâl" N Sem/Event Sg Gen @>N #3->5
+"<,>"
+	"," CLB #4->3
+: 
+"<Vuáčču>"
+	"Vuáčču" N Prop Sem/Plc Sg Nom @HNOUN #5->0
+: 
+"<71 669,45>"
+	"71 669,45" Num Arab Sg Nom @HNOUN #6->5
+: 
+"<€>"
+	"€" N Symbol Err/Orth Sg Gen @Num< #7->6
+: 
+"<¶>"
+	"¶" CLB #8->5
+:\n
+"<7.>"
+	"7" A Arab Ord Attr @>N #1->2
+:    
+"<Tavesämikielâ>"
+	"tavesämikielâ" N Sem/Lang Sg Gen @>N #2->3
+: 
+"<kielâpiervâleh>"
+	"kielâpiervâl" N Sem/Event Pl Nom @HNOUN #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<Kärigâsnjargâ>"
+	"Kärigâsnjargâ" N Prop Sem/Plc Sg Nom @HNOUN #5->3
+: 
+"<já>"
+	"já" CC @CNP #6->5
+: 
+"<Ucjuuhâ>"
+	"Ucjuuhâ" N Prop Sem/Plc Sg Nom @HNOUN #7->5
+: 
+"<72 877,30>"
+	"72 877,30" Num Arab Sg Nom @HNOUN #8->7
+: 
+"<€>"
+	"€" N Symbol Err/Orth Sg Gen @Num< #9->8
+: 
+"<¶>"
+	"¶" CLB #10->3
+:\n
+"<Lasetiäđuh>"
+	"lasetiätu" N Sem/Prod-cogn_Txt Pl Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<Pia>"
+	"Pia" N Prop Sem/Fem Attr @>N #3->4
+: 
+"<Ruotsala>"
+	"Ruotsala" N Prop Sem/Sur Sg Nom @HNOUN #4->1
+"<,>"
+	"," CLB #5->4
+: 
+"<má>"
+	"má" ? @X #6->0
+: 
+"<haldâttâhhovdâ>"
+	"haldâttâhhovdâ" N Sem/Hum Sg Nom @HNOUN #7->4
+"<,>"
+	"," CLB #8->7
+: 
+"<Sämitigge>"
+	"Sämitigge" N Prop Sem/Plc Sg Nom @HNOUN #9->7
+"<,>"
+	"," CLB #10->9
+: 
+"<040-7262688>"
+	"040-7262688" Num Arab Sem/ID @X #11->0
+"<,>"
+	"," CLB #12->11
+: 
+"<¶>"
+	"¶" CLB #13->1
+:\n
+
+]]></dependency></body></document>

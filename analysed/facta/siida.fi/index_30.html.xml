@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Siida somest – Siida</title><genre code="facta"/><author><unknown/></author><wordcount>67</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://siida.fi/anaraskiela/tiaduh-mist/siida-somest/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Mij>"
+	"mun" Pron Pers Pl1 Nom @SUBJ> #1->2
+: 
+"<lep>"
+	"leđe" <mv> V IV Ind Prs Pl1 @FMV #2->0
+: 
+"<áávus>"
+	"áávus" Adv @<ADVL #3->2
+: 
+"<10>"
+	"10" Num Arab Sem/Time-clock Sg Nom @<ADVL #4->2
+: 
+"<- 17>"
+	"- 17" Num Arab Sem/ID @<ADVL #5->2
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<Uusâ>"
+	"uuccâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+	"uussâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tiäđuh>"
+	"tiätu" N Sem/Prod-cogn_Txt Pl Nom @HNOUN #1->0
+: 
+"<mist>"
+	"mun" Pron Pers Pl1 Loc @<ADVL #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Siida>"
+	"Siida" N Prop Sem/Plc Sg Nom @SUBJ> #1->2
+: 
+"<kávnoo>"
+	"kavnuđ" <mv> V IV Ind Prs Sg3 @FMV #2->0
+	"kavnâđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<čuávuváin>"
+	"čuávuvâš" A Sg Com @<ADVL #3->2
+: 
+"<sosial>"
+	"sosiaal" A Cmp/Attr Err/Orth Sem/Dummytag Attr Err/Orth @>N #4->5
+: 
+"<mediain>"
+	"media" N Sem/Org Sg Com @<ADVL #5->2
+"<:>"
+	":" CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<Facebook>"
+	"Facebook" N Prop Sem/Org Sg Nom @HNOUN #1->0
+: 
+"<Siida>"
+	"Siida" N Prop Sem/Plc Sg Nom @HNOUN #2->1
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Säämimuseo>"
+	"museo" N Sem/Build_Org Sg Nom @HNOUN #4->2
+		"säämi" N Sem/Hum_Lang Cmp/SgGen Err/Orth Cmp #4->2
+: 
+"<já>"
+	"já" CC @CNP #5->4
+: 
+"<luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @HNOUN #6->4
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #6->4
+:  
+"<¶>"
+	"¶" CLB #7->1
+:\n
+"<Facebook>"
+	"Facebook" N Prop Sem/Org Sg Gen @>N #1->2
+: 
+"<Raavâdviäsu>"
+	"raavâdviäsu" N Sem/Org Sg Nom @HNOUN #2->0
+: 
+"<Sarrit>"
+	"Sarrit" ? @X #3->0
+:   
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Instagram>"
+	"Instagram" N Prop Sem/Org Sg Nom @HNOUN #1->0
+: 
+"<Siida>"
+	"Siida" N Prop Sem/Plc Sg Nom @HNOUN #2->1
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Säämimuseo>"
+	"museo" N Sem/Build_Org Sg Nom @HNOUN #4->2
+		"säämi" N Sem/Hum_Lang Cmp/SgGen Err/Orth Cmp #4->2
+: 
+"<já>"
+	"já" CC @CNP #5->4
+: 
+"<luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @HNOUN #6->4
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #6->4
+: 
+"<sehe>"
+	"sehe" Adv @<ADVL #7->6
+: 
+"<Raavâdviäsu>"
+	"raavâdviäsu" N Sem/Org Sg Nom @HNOUN #8->6
+: 
+"<Sarrit>"
+	"Sarrit" ? @X #9->0
+:  #
+"<siidainari>"
+	"siidainari" ? @X #10->0
+: #
+"<sarrit>"
+	"sarrit" ? @X #11->0
+:  
+"<¶>"
+	"¶" CLB #12->1
+:\n
+"<Tripadvisor>"
+	"Tripadvisor" ? @X #1->0
+: 
+"<Siida>"
+	"Siida" N Prop Sem/Plc Sg Nom @HNOUN #2->4
+	"Siida" N Prop Sem/Plc Sg Gen @>N #2->4
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Säämimuseo>"
+	"museo" N Sem/Build_Org Sg Nom @HNOUN #4->0
+		"säämi" N Sem/Hum_Lang Cmp/SgGen Err/Orth Cmp #4->0
+: 
+"<já>"
+	"já" CC @CNP #5->4
+: 
+"<luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @HNOUN #6->4
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #6->4
+:  
+"<¶>"
+	"¶" CLB #7->4
+:\n
+"<Twitter>"
+	"Twitter" N Prop Sem/Org Sg Nom @HNOUN #1->0
+: 
+"<Siida>"
+	"Siida" N Prop Sem/Plc Sg Nom @HNOUN #2->1
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Säämimuseo>"
+	"museo" N Sem/Build_Org Sg Nom @HNOUN #4->2
+		"säämi" N Sem/Hum_Lang Cmp/SgGen Err/Orth Cmp #4->2
+: 
+"<já>"
+	"já" CC @CNP #5->4
+: 
+"<luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @HNOUN #6->4
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #6->4
+:  
+"<¶>"
+	"¶" CLB #7->1
+:\n
+"<Youtube>"
+	"YouTube" Err/Orth N Prop Sem/Obj Sg Nom @HNOUN #1->0
+: 
+"<Siida>"
+	"Siida" N Prop Sem/Plc Sg Nom @HNOUN #2->1
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Säämimuseo>"
+	"museo" N Sem/Build_Org Sg Nom @HNOUN #4->2
+		"säämi" N Sem/Hum_Lang Cmp/SgGen Err/Orth Cmp #4->2
+: 
+"<já>"
+	"já" CC @CNP #5->4
+: 
+"<luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @HNOUN #6->4
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #6->4
+:  
+"<¶>"
+	"¶" CLB #7->1
+:\n
+
+]]></dependency></body></document>

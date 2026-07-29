@@ -1,0 +1,862 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Almoot jieijâd iävtukkâs! | Sámi Giellagáldu</title><genre code="admin"/><author><person firstname="Mika" lastname="Saijets" sex="m" born="" nationality=""/></author><year>2014</year><wordcount>217</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><origFileName>http://www.giella.org/?p=832</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 150288 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA[:↓ 
+"<Skip>"
+	"Skip" ? @X #1->0
+: 
+"<to>"
+	"to" Interj @INTERJ #2->0
+: 
+"<Main>"
+	"mii" Pron Indef Pl Loc @HNOUN #3->0
+: 
+"<Content>"
+	"Content" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->2
+:\n
+"<Almoot>"
+	"almottiđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<jieijâd>"
+	"jieš" Pron Refl Acc PxSg2 @<OBJ #2->1
+: 
+"<iävtukkâs>"
+	"iävtukkâs" N Sem/Hum Sg Gen @<ADVL #3->1
+	"iävtukkâs" N Sem/Hum Sg Nom @<SUBJ #3->1
+"<!>"
+	"!" CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Posted>"
+	"Posted" ? @X #1->0
+: 
+"<on>"
+	"on" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<by>"
+	"by" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Mika>"
+	"Mika" N Prop Sem/Mal Attr @>N #1->2
+: 
+"<Saijets>"
+	"Saijets" N Prop Sem/Sur Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<KOLLEKIELÂ>"
+	"kielâ" N Sem/Lang_Tool Sg Nom @SUBJ> #1->4
+		"Kolle" N Prop Sem/Sur Cmp/SgNom Cmp #1->4
+	"kielâ" N Sem/Lang_Tool Sg Gen @>N #1->4
+		"Kolle" N Prop Sem/Sur Cmp/SgNom Cmp #1->4
+	"kielâ" N Sem/Lang_Tool Sg Nom @SUBJ> #1->4
+		"kolle" N Sem/Mat Cmp/SgNom Cmp #1->4
+	"kielâ" N Sem/Lang_Tool Sg Gen @>N #1->4
+		"kolle" N Sem/Mat Cmp/SgNom Cmp #1->4
+: 
+"<–>"
+	"–" PUNCT MIDDLE #2->3
+: 
+"<Tave-eennâmlâš>"
+	"tave-eennâmlâš" A Attr @>N #3->4
+: 
+"<säämi>"
+	"säämi" N Sem/Hum_Lang Sg Gen @ADVL> #4->6
+	"säämi" N Sem/Hum_Lang Sg Nom @SUBJ> #4->6
+: 
+"<kielâpalhaâšume>"
+	"kielâpalhaâšume" ? @X #5->0
+: 
+"<juáhhoo>"
+	"juohhuđ" <mv> V IV Ind Prs Sg3 @FMV #6->0
+	"juáhuđ" Ex/V Der/Pass <mv> V IV Ind Prs Sg3 @FMV #6->0
+	"jyehiđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #6->0
+: 
+"<kuuđâd>"
+	"kuuđâd" A Ord Attr @>N #7->8
+: 
+"<keerdi>"
+	"keerdi" Adv @<ADVL #8->6
+	"kerdi" N Sem/Plc_Time Sg Gen @<ADVL #8->6
+: 
+"<2014>"
+	"2014" Num Arab Sem/Year Sg Nom @<ADVL #9->6
+: 
+"<sämmilâšaašijn>"
+	"sämmilâšäšši" N Sem/Semcon Pl Loc @Num< #10->9
+: 
+"<västideijee>"
+	"västideijee" A Attr @>N #11->12
+: 
+"<ministerij>"
+	"minister" N Sem/Hum_Org Pl Gen @>N #12->15
+: 
+"<ja>"
+	"ja" CC @CNP #13->12
+: 
+"<sämitigij>"
+	"sämitigge" N Sem/Org Pl Gen @>N #14->15
+: 
+"<saavâjođetteijei>"
+	"saavâjođetteijee" N Sem/Hum NomAg Pl Gen @>N #15->6
+	"saavâjođetteijee" N Sem/Hum NomAg Sg Ill @<ADVL #15->6
+: 
+"<kuáhtáámist>"
+	"kuáhtáđ" Ex/V TV Der/NomAct N Sg Loc @<ADVL #16->6
+: 
+"<Helsigist>"
+	"Helsig" N Prop Sem/Plc Sg Loc @<ADVL #17->6
+"<.>"
+	"." CLB #18->6
+: 
+"<Palhâšume>"
+	"palhâšume" N Sem/Prod Sg Nom @SUBJ> #1->2
+: 
+"<mieđettuvvoo>"
+	"mieđettiđ" Ex/V TV Der/Pass <mv> V Ind Prs Sg3 @FMV #2->0
+: 
+"<ovtâskâsulmuid>"
+	"olmooš" N Sem/Hum Pl Acc @<OBJ #3->2
+		"ovtâskâs" A Cmp/Attr Cmp #3->2
+	"olmooš" N Sem/Hum Pl Ill @<ADVL #3->2
+		"ovtâskâs" A Cmp/Attr Cmp #3->2
+: 
+"<tâi>"
+	"tâi" CC @CNP #4->3
+: 
+"<siärváduvváid>"
+	"siärvádâh" N Sem/Org Pl Ill @<ADVL #5->3
+: 
+"<Taažâst>"
+	"Taažâ" N Prop Sem/Plc Sg Loc @<ADVL #6->2
+"<,>"
+	"," CLB #7->6
+: 
+"<Ruotâst>"
+	"Ruotâ" N Prop Sem/Plc Sg Loc @<ADVL #8->3
+"<,>"
+	"," CLB #9->8
+: 
+"<Suomâst>"
+	"Suomâ" N Prop Sem/Plc Sg Loc @<ADVL #10->3
+: 
+"<tâi>"
+	"tâi" CC @CNP #11->10
+: 
+"<Ruošâst>"
+	"Ruošâ" N Prop Sem/Plc Sg Loc @<ADVL #12->2
+	"Ruoššâ" N Prop Sem/Plc Sg Loc @<ADVL #12->2
+: 
+"<sämikielâ>"
+	"sämikielâ" N Sem/Lang Sg Acc @<OBJ #13->2
+: 
+"<oovdedmân>"
+	"ovdedem" N Sem/Dummytag Sg Ill @<ADVL #14->2
+"<.>"
+	"." CLB #15->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Palhâšume>"
+	"palhâšume" N Sem/Prod Sg Gen @ADVL> #1->3
+: 
+"<láá>"
+	"leđe" <aux> V IV Ind Prs Pl3 @FAUX #2->0
+: 
+"<vuáđudâm>"
+	"vuáđudiđ" <mv> V TV PrfPrc @IMV #3->2
+: 
+"<Taažâ>"
+	"Taažâ" N Prop Sem/Plc Sg Acc @<OBJ #4->3
+"<,>"
+	"," CLB #5->4
+: 
+"<Suomâ>"
+	"Suomâ" N Prop Sem/Plc Sg Nom @<SUBJ #6->16
+	"Suomâ" N Prop Sem/Plc Sg Gen @>N #6->16
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<Ruotâ>"
+	"Ruotâ" N Prop Sem/Plc Sg Nom @<SUBJ #8->2
+	"Ruotâ" N Prop Sem/Plc Sg Gen @<ADVL #8->2
+: 
+"<sämmilâšašijn>"
+	"sämmilâšašijn" ? @X #9->0
+: 
+"<västidijee>"
+	"västidijee" ? @X #10->0
+: 
+"<ministereh>"
+	"minister" N Sem/Hum_Org Pl Nom @<SUBJ #11->2
+: 
+"<oovtâst>"
+	"oovtâst" Adv @<ADVL #12->8
+: 
+"<tai>"
+	"taat" Pron Dem Pl Com Attr @>N #13->14
+: 
+"<enâmij>"
+	"eennâm" N Sem/Plc Pl Gen @>N #14->15
+: 
+"<sämitigij>"
+	"sämitigge" N Sem/Org Pl Gen @>N #15->16
+: 
+"<saavâjođetteijeiguin>"
+	"saavâjođetteijee" N Sem/Hum NomAg Pl Com @<ADVL #16->8
+"<.>"
+	"." CLB #17->2
+: 
+"<Palhâšume>"
+	"palhâšume" N Sem/Prod Sg Nom @SUBJ> #1->2
+: 
+"<juohhui>"
+	"juohhuđ" <mv> V IV Ind Prt Sg3 @FMV #2->0
+	"juáhuđ" Ex/V Der/Pass <mv> V IV Ind Prt Sg3 @FMV #2->0
+	"jyehiđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prt Sg3 @FMV #2->0
+: 
+"<vuossâmuu>"
+	"vuossâmuš" Ex/A Ord Der/Superl A Sg Gen @>N #3->4
+: 
+"<keerdi>"
+	"keerdi" Adv @<ADVL #4->2
+	"kerdi" N Sem/Plc_Time Sg Gen @>N #4->2
+: 
+"<ive>"
+	"ihe" N Sem/Time Sg Gen @<ADVL #5->2
+: 
+"<2004>"
+	"2004" Num Arab Sem/Year Sg Nom @SUBJ> #6->9
+: 
+"<já>"
+	"já" CC @CVP #7->2
+: 
+"<tot>"
+	"tot" Pron Dem Sg Nom @SUBJ> #8->9
+: 
+"<juáhhoo>"
+	"juohhuđ" <mv> V IV Ind Prs Sg3 @FMV #9->2
+	"juáhuđ" Ex/V Der/Pass <mv> V IV Ind Prs Sg3 @FMV #9->2
+	"jyehiđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #9->2
+: 
+"<jyehi>"
+	"jyehi" Pron Indef Attr @>A #10->11
+: 
+"<nube>"
+	"nubbe" A Ord Sg Ill Attr @>N #11->12
+	"nubbe" A Ord Sg Loc Attr @>N #11->12
+: 
+"<ive>"
+	"ihe" N Sem/Time Sg Gen @Num< #12->12
+"<.>"
+	"." CLB #13->2
+: 
+"<Palhâšume>"
+	"palhâšume" N Sem/Prod Sg Gen @>N #1->2
+: 
+"<stuárudâh>"
+	"stuárudâh" N Sem/Feat-phys Sg Nom @SUBJ> #2->3
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<15 000>"
+	"15 000" Num Arab Ess @<ADVL #4->3
+	"15 000" Num Arab Par @<ADVL #4->3
+	"15 000" Num Arab Pl Abe Attr @>N #4->3
+	"15 000" Num Arab Pl Ill @<ADVL #4->3
+	"15 000" Num Arab Sg Com @<ADVL #4->3
+	"15 000" Num Arab Sg Nom @<SUBJ #4->3
+: 
+"<eurod>"
+	"euro" N Sem/Curr Par @X #5->0
+"<.>"
+	"." CLB #6->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kielâpalhâšume>"
+	"palhâšume" N Sem/Prod Sg Gen @>N #1->2
+		"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #1->2
+: 
+"<ulme>"
+	"ulme" N Sem/Semcon Sg Nom @HNOUN #2->0
+:  
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Kielâpalhâšume>"
+	"palhâšume" N Sem/Prod Sg Gen @>N #1->2
+		"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #1->2
+: 
+"<ulmen>"
+	"ulme" N Sem/Semcon Ess @ADVL> #2->3
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<išediđ>"
+	"išediđ" V TV Inf @<SUBJ #4->3
+: 
+"<sämikielâ>"
+	"sämikielâ" N Sem/Lang Sg Acc @-F<OBJ #5->4
+: 
+"<oovdedmist>"
+	"ovdedem" N Sem/Dummytag Sg Loc @<ADVL #6->3
+: 
+"<tâi>"
+	"tâi" CC @CNP #7->6
+: 
+"<siäilutmist>"
+	"siäiluttiđ" Ex/V TV Der/NomAct N Sg Loc @<ADVL #8->6
+: 
+"<Taažâst>"
+	"Taažâ" N Prop Sem/Plc Sg Loc @<ADVL #9->3
+"<,>"
+	"," CLB #10->9
+: 
+"<Ruotâst>"
+	"Ruotâ" N Prop Sem/Plc Sg Loc @<ADVL #11->6
+"<,>"
+	"," CLB #12->11
+: 
+"<Suomâst>"
+	"Suomâ" N Prop Sem/Plc Sg Loc @<ADVL #13->6
+: 
+"<já>"
+	"já" CC @CNP #14->13
+: 
+"<Ruošâst>"
+	"Ruošâ" N Prop Sem/Plc Sg Loc @<ADVL #15->3
+	"Ruoššâ" N Prop Sem/Plc Sg Loc @<ADVL #15->3
+"<.>"
+	"." CLB #16->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kii>"
+	"kii" Pron Interr Sg Nom @SUBJ> #1->2
+: 
+"<puáhtá>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg3 @FMV #2->0
+: 
+"<finniđ>"
+	"finniđ" V TV Inf @<OBJ #3->2
+: 
+"<palhâšume>"
+	"palhâšume" N Sem/Prod Sg Acc @-F<OBJ #4->3
+"<?>"
+	"?" CLB #5->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kielâpalhâšume>"
+	"palhâšume" N Sem/Prod Sg Nom @SUBJ> #1->2
+		"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #1->2
+: 
+"<mieđettuvvoo>"
+	"mieđettiđ" Ex/V TV Der/Pass <mv> V Ind Prs Sg3 @FMV #2->0
+: 
+"<ovtâskâsulmuid>"
+	"olmooš" N Sem/Hum Pl Acc @<OBJ #3->2
+		"ovtâskâs" A Cmp/Attr Cmp #3->2
+	"olmooš" N Sem/Hum Pl Ill @<ADVL #3->2
+		"ovtâskâs" A Cmp/Attr Cmp #3->2
+: 
+"<(>"
+	"(" PUNCT LEFT #4->5
+"<meid>"
+	"meid" Adv @<ADVL #5->2
+: 
+"<juávkku>"
+	"juávkku" N Sem/Group_Hum Sg Nom @SUBJ> #6->17
+"<)>"
+	")" PUNCT RIGHT #7->8
+: 
+"<tâi>"
+	"tâi" CC @CNP #8->6
+: 
+"<siärváduvváid>"
+	"siärvádâh" N Sem/Org Pl Ill @<ADVL #9->2
+: 
+"<(>"
+	"(" PUNCT LEFT #10->11
+"<meid>"
+	"meid" Adv @<ADVL #11->2
+: 
+"<servi>"
+	"servi" N Sem/Org Sg Nom @SUBJ> #12->17
+"<,>"
+	"," CLB #13->12
+: 
+"<lájádâs>"
+	"lájádâs" N Sem/Org Sg Nom @SUBJ> #14->12
+"<)>"
+	")" PUNCT RIGHT #15->16
+: 
+"<moh>"
+	"mii" Pron Indef Pl Nom @SUBJ> #16->17
+: 
+"<láá>"
+	"leđe" <mv> V IV Ind Prs Pl3 @FMV #17->2
+: 
+"<mávsulávt>"
+	"máksu" Ex/N Sem/Money Der/lasj Ex/A Der/AAdv Adv @<ADVL #18->17
+	"mávsulâš" Ex/A Der/AAdv Adv @<ADVL #18->17
+: 
+"<toimâm>"
+	"toimâđ" V IV PrfPrc @>N #19->20
+: 
+"<merhâšittee>"
+	"merhâšittee" A Sg Gen @>N #20->21
+	"merhâšiđ" Ex/V TV Der/Caus Ex/V Der/NomAg N Sg Gen @>N #20->21
+: 
+"<vuovvijn>"
+	"vyehi" N Sem/Feat Sg Com @<ADVL #21->17
+: 
+"<sämikielâ>"
+	"sämikielâ" N Sem/Lang Sg Acc @<OBJ #22->17
+: 
+"<oovdedmân>"
+	"ovdedem" N Sem/Dummytag Sg Ill @<ADVL #23->17
+: 
+"<tâi>"
+	"tâi" CC @CNP #24->23
+: 
+"<siäilutmân>"
+	"siäiluttiđ" Ex/V TV Der/NomAct N Sg Ill @<ADVL #25->23
+"<.>"
+	"." CLB #26->2
+: 
+"<Palhâšume>"
+	"palhâšume" N Sem/Prod Sg Nom @SUBJ> #1->2
+: 
+"<puáhtá>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg3 @FMV #2->0
+: 
+"<mieđettiđ>"
+	"mieđettiđ" V TV Inf @<OBJ #3->2
+: 
+"<om.>"
+	"om" N ABBR Gram/TNumAbbr Sg Acc @-F<OBJ #4->3
+: 
+"<kirjálâš>"
+	"kirjálâš" A Sg Nom @<SUBJ #5->2
+"<,>"
+	"," CLB #6->5
+: 
+"<njálmálâš>"
+	"njálmálâš" A Sg Nom @<SUBJ #7->5
+: 
+"<tâi>"
+	"tâi" CC @CNP #8->7
+: 
+"<eres>"
+	"eres" Pron Indef Attr @>N #9->10
+: 
+"<áánsuin>"
+	"ánssu" N Sem/Dummytag Pl Loc @<ADVL #10->2
+	"ánsu" N Sem/Money Pl Loc @<ADVL #10->2
+"<,>"
+	"," CLB #11->12
+: 
+"<moh>"
+	"mii" Pron Rel Pl Nom @SUBJ> #12->13
+: 
+"<sajaduveh>"
+	"sajaduđ" <mv> V Ind Prs Pl3 @FS-N< #13->10
+: 
+"<vijđáht>"
+	"vijđáht" Adv @<ADVL #14->13
+: 
+"<jieškote-uv>"
+	"jieškote" Pron Indef Sg Nom Foc/uv @<SUBJ #15->13
+: 
+"<toimâsuorgijd>"
+	"toimâsyergi" N Sem/Dummytag Pl Acc @<OBJ #16->13
+"<.>"
+	"." CLB #17->2
+: 
+"<Palhâšume>"
+	"palhâšume" N Sem/Prod Sg Nom @SUBJ> #1->2
+: 
+"<puáhtá>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg3 @FMV #2->0
+: 
+"<jyehiđ>"
+	"jyehiđ" V TV Inf @<OBJ #3->2
+: 
+"<maaŋgâi>"
+	"maŋgâ" Num Pl Gen @>N #4->5
+	"maŋgâ" Pron Indef Pl Gen @>N #4->5
+: 
+"<vyeittei>"
+	"vyeittee" N Sem/Hum NomAg Pl Gen @>P #5->6
+: 
+"<kooskâ>"
+	"kooskâ" Po @<ADVL #6->2
+"<.>"
+	"." CLB #7->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Almoot>"
+	"almottiđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<jieijâd>"
+	"jieš" Pron Refl Acc PxSg2 @<OBJ #2->1
+: 
+"<iävtukkâs>"
+	"iävtukkâs" N Sem/Hum Sg Gen @<ADVL #3->1
+	"iävtukkâs" N Sem/Hum Sg Nom @<SUBJ #3->1
+"<!>"
+	"!" CLB #4->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ovtâskâsolmooš>"
+	"olmooš" N Sem/Hum Sg Nom @SUBJ> #1->13
+		"ovtâskâs" A Cmp/Attr Cmp #1->13
+"<,>"
+	"," CLB #2->1
+: 
+"<juávkku>"
+	"juávkku" N Sem/Group_Hum Sg Nom @SUBJ> #3->1
+: 
+"<tâi>"
+	"tâi" CC @CNP #4->3
+: 
+"<siärvádâh>"
+	"siärvádâh" N Sem/Org Sg Nom @SUBJ> #5->1
+: 
+"<Taažâst>"
+	"Taažâ" N Prop Sem/Plc Sg Loc @ADVL> #6->13
+"<,>"
+	"," CLB #7->6
+: 
+"<Ruotâst>"
+	"Ruotâ" N Prop Sem/Plc Sg Loc @ADVL> #8->13
+"<,>"
+	"," CLB #9->8
+: 
+"<Suomâst>"
+	"Suomâ" N Prop Sem/Plc Sg Loc @ADVL> #10->13
+: 
+"<já>"
+	"já" CC @CNP #11->10
+: 
+"<Ruošâst>"
+	"Ruošâ" N Prop Sem/Plc Sg Loc @ADVL> #12->13
+	"Ruoššâ" N Prop Sem/Plc Sg Loc @ADVL> #12->13
+: 
+"<puáhtá>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg3 @FMV #13->0
+: 
+"<toohâđ>"
+	"toohâđ" V TV Inf @<OBJ #14->13
+: 
+"<jieijâs>"
+	"jieš" Pron Refl Gen PxSg3 @>N #15->16
+: 
+"<iävtuttâs>"
+	"iävtuttâs" N Sem/Prod-ling Sg Acc @-F<OBJ #16->14
+: 
+"<ive>"
+	"ihe" N Sem/Time Sg Gen @<ADVL #17->13
+: 
+"<2014>"
+	"2014" Num Arab Sem/Year Sg Nom @<ADVL #18->13
+: 
+"<palhâšume>"
+	"palhâšume" N Sem/Prod Sg Gen @>N #19->20
+: 
+"<uážžost>"
+	"uážžuđ" Ex/V TV Der/NomAg N Sg Loc @<ADVL #20->13
+"<.>"
+	"." CLB #21->13
+: 
+"<Iävtuttâs>"
+	"iävtuttâs" N Sem/Prod-ling Sg Gen @>N #1->2
+: 
+"<palhâšume>"
+	"palhâšume" N Sem/Prod Sg Gen @>N #2->3
+: 
+"<uážžost>"
+	"uážžuđ" Ex/V TV Der/NomAg N Sg Loc @ADVL> #3->12
+: 
+"<já>"
+	"já" CC @CVP #4->11
+: 
+"<enâmustáá>"
+	"enâmustáá" Adv @ADVL> #5->12
+: 
+"<1-2>"
+	"1-2" Num Arab Sem/Time-clock Span Sg Nom @SUBJ> #6->11
+: 
+"<siijđo>"
+	"sijđo" N Sem/Txt Sg Gen @>N #7->10
+: 
+"<kukkosâš>"
+	"kukkosâš" A Attr @>N #8->10
+: 
+"<kirjálâš>"
+	"kirjálâš" A Attr @>N #9->10
+: 
+"<vuáđustâllâm>"
+	"vuáđustiđ" Ex/V TV Der/alla Ex/V Der/NomAct N Sg Gen @ADVL> #10->12
+: 
+"<kalga>"
+	"kolgâđ" <aux> V IV Ind Prs Sg3 @FAUX #11->0
+: 
+"<toimâttiđ>"
+	"toimâttiđ" <mv> V TV Inf @IMV #12->11
+: 
+"<majemustáá>"
+	"majemustáá" Adv @<ADVL #13->12
+: 
+"<3>"
+	"3" Num Arab Sem/Time-clock Sg Nom @<SUBJ #14->11
+: 
+"<0>"
+	"0" Num Arab Sem/Time-clock Sg Nom @<SUBJ #15->11
+"<.>"
+	"." CLB #16->11
+: 
+"<vyesimáánu>"
+	"vyesimáánu" N Sem/Time Sg Nom @HNOUN #1->0
+: 
+"<2014>"
+	"2014" Num Arab Sem/Year Sg Ill Attr @>N #2->3
+: 
+"<čujottâsân>"
+	"čujottâs" N Sem/Plc-abstr Sg Ill @<ADVL #3->1
+"<:>"
+	":" CLB #4->1
+:  
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Kollekielâ>"
+	"kielâ" N Sem/Lang_Tool Sg Gen @>N #1->3
+		"Kolle" N Prop Sem/Sur Cmp/SgNom Cmp #1->3
+	"kielâ" N Sem/Lang_Tool Sg Nom @HNOUN #1->3
+		"Kolle" N Prop Sem/Sur Cmp/SgNom Cmp #1->3
+	"kielâ" N Sem/Lang_Tool Sg Nom @HNOUN #1->3
+		"kolle" N Sem/Mat Cmp/SgNom Cmp #1->3
+	"kielâ" N Sem/Lang_Tool Sg Gen @>N #1->3
+		"kolle" N Sem/Mat Cmp/SgNom Cmp #1->3
+: 
+"<–>"
+	"–" PUNCT MIDDLE #2->3
+: 
+"<árvuštâllâmkomitea>"
+	"komitea" N Sem/Org Sg Gen @X #3->0
+		"árvuštâllâm" N Sem/Dummytag Cmp/SgNom Cmp #3->0
+: 
+"<Sámediggi>"
+	"Sámediggi" ? @X #4->0
+"</>"
+	"/" PUNCT MIDDLE #5->6
+"<Saamelaiskäräjät>"
+	"Saamelaiskäräjät" ? @X #6->0
+: 
+"<SAJOS>"
+	"Sajos" N Prop Sem/Plc Sg Nom @HNOUN #7->3
+: 
+"<99870>"
+	"99870" Num Arab Sem/ID @>N #8->9
+: 
+"<Inari>"
+	"Inari" N Prop Sem/Plc Attr @>N #9->10
+: 
+"<FINLAND>"
+	"Finland" N Prop Sem/Plc Sg Nom @HNOUN #10->7
+: 
+"<¶>"
+	"¶" CLB #11->11
+:\n
+"<epostâ>"
+	"epostâ" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<info>"
+	"info" N Sem/Txt ABBR Sg Gen @>N #3->5
+	"info" N Sem/Txt ABBR Sg Nom @HNOUN #3->5
+"<(>"
+	"(" PUNCT LEFT #4->5
+"<@>"
+	"@" N Symbol @X #5->0
+"<)>"
+	")" PUNCT RIGHT #6->5
+"<samediggi.fi>"
+	"samediggi.fi" URL #7->7
+: 
+"<¶>"
+	"¶" CLB #8->8
+:\n
+"<+358108393100>"
+	"+358108393100" Num Arab Sem/ID @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Share>"
+	"Share" ? @X #1->0
+: 
+"<this>"
+	"this" ? @X #2->0
+"<:>"
+	":" CLB #3->3
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" Interj @INTERJ #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"on" ? @X #4->0
+: 
+"<Twitter>"
+	"Twitter" N Prop Sem/Org Sg Nom @HNOUN #5->0
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+"<Opens>"
+	"Opens" ? @X #7->0
+: 
+"<in>"
+	"in" ? @X #8->0
+: 
+"<new>"
+	"new" ? @X #9->0
+: 
+"<window>"
+	"window" ? @X #10->0
+"<)>"
+	")" PUNCT RIGHT #11->10
+: 
+"<¶>"
+	"¶" CLB #12->2
+:\n
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" Interj @INTERJ #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"on" ? @X #4->0
+: 
+"<Facebook>"
+	"Facebook" N Prop Sem/Org Sg Nom @HNOUN #5->0
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+"<Opens>"
+	"Opens" ? @X #7->0
+: 
+"<in>"
+	"in" ? @X #8->0
+: 
+"<new>"
+	"new" ? @X #9->0
+: 
+"<window>"
+	"window" ? @X #10->0
+"<)>"
+	")" PUNCT RIGHT #11->10
+: 
+"<¶>"
+	"¶" CLB #12->2
+:\n
+"<Click>"
+	"Click" ? @X #1->0
+: 
+"<to>"
+	"to" Interj @INTERJ #2->0
+: 
+"<share>"
+	"share" ? @X #3->0
+: 
+"<on>"
+	"on" ? @X #4->0
+: 
+"<Google>"
+	"Google" N Prop Sem/Obj Sg Nom @HNOUN #5->0
+"<+>"
+	"+" PUNCT #6->6
+: 
+"<(>"
+	"(" PUNCT LEFT #7->8
+"<Opens>"
+	"Opens" ? @X #8->0
+: 
+"<in>"
+	"in" ? @X #9->0
+: 
+"<new>"
+	"new" ? @X #10->0
+: 
+"<window>"
+	"window" ? @X #11->0
+"<)>"
+	")" PUNCT RIGHT #12->11
+: 
+"<¶>"
+	"¶" CLB #13->2
+:\n
+"<Related>"
+	"Related" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Posted>"
+	"Posted" ? @X #1->0
+: 
+"<in>"
+	"in" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Äigikyevdilis>"
+	"äigikyevdil" A Attr @>N #1->2
+: 
+"<almottâsah>"
+	"almottâs" N Sem/Prod-ling Pl Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+
+]]></dependency></body></document>

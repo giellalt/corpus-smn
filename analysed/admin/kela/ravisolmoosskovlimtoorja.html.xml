@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Rävisolmoošškovlimtoorjâ - kela.fi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2019</year><wordcount>74</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="fin"/></multilingual><origFileName>https://www.kela.fi/ravisolmoosskovlimtoorja</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Other>"
+	"Other" ? @X #1->0
+: 
+"<languages>"
+	"languages" ? @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Anarâškielân>"
+	"anarâškielâ" N Sem/Lang Sg Ill @<ADVL #1->1
+: 
+"</>"
+	"/" PUNCT MIDDLE #2->1
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Oppâm>"
+	"oppâm" A Sg Nom @SPRED> #1->3
+	"oppâm" N Sem/Dummytag Sg Nom @HNOUN #1->3
+: 
+"<já>"
+	"já" CC @CNP #2->1
+: 
+"<viärjukenigâsvuotâ>"
+	"viärjukenigâsvuotâ" N Sem/Dummytag Sg Nom @HNOUN #3->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #4->3
+: 
+"<¶>"
+	"¶" CLB #5->3
+:\n
+"<Rävisolmoošškovlimtoorjâ>"
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"rävisolmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" A Cmp/Attr Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" A Cmp/SgNom Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" N Sem/Hum Cmp/SgNom Cmp #1->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Rävisolmoošškovlimtoorjâ>"
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"rävisolmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" A Cmp/Attr Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" A Cmp/SgNom Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" N Sem/Hum Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Jis>"
+	"jis" CS @CVP #1->3
+: 
+"<tun>"
+	"tun" Pron Pers Sg2 Nom @SUBJ> #2->3
+: 
+"<lah>"
+	"leđe" <aux> V IV Ind Prs Sg2 @FS-VFIN< #3->0
+: 
+"<lamaš>"
+	"leđe" <mv> V IV PrfPrc @FS-IMV #4->3
+: 
+"<pargoelimist>"
+	"eellim" N Sem/Dummytag Sg Loc @<ADVL #5->4
+		"pargo" N Sem/Act_Plc Cmp/SgNom Cmp #5->4
+: 
+"<ucemustáá>"
+	"ucce" Ex/A Der/Superl Ex/A Der/taa Adv @<ADVL #6->4
+	"ucemus" Ex/A Der/Superl Ex/A Der/taa Adv @<ADVL #6->4
+	"ucemustáá" Adv @<ADVL #6->4
+: 
+"<8>"
+	"8" Num Arab Sem/Time-clock Sg Nom @<ADVL #7->4
+: 
+"<ihheed>"
+	"ihe" N Sem/Time Par @X #8->0
+"<,>"
+	"," CLB #9->1
+: 
+"<te>"
+	"te" Adv @<ADVL #10->12
+	"te" CS @CVP #10->12
+: 
+"<tun>"
+	"tun" Pron Pers Sg2 Nom @SUBJ> #11->12
+: 
+"<puávtáh>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg2 @FS-<ADVL #12->4
+: 
+"<uážžuđ>"
+	"uážžuđ" V TV Inf @<OBJ #13->12
+: 
+"<rävisolmoošškovlimtorjuu>"
+	"toorjâ" N Sem/Money Sg Acc @-F<OBJ #14->13
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #14->13
+			"rävisolmooš" N Sem/Hum Cmp/SgNom Cmp #14->13
+	"toorjâ" N Sem/Money Sg Acc @-F<OBJ #14->13
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #14->13
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #14->13
+				"räävis" A Cmp/Attr Cmp #14->13
+	"toorjâ" N Sem/Money Sg Acc @-F<OBJ #14->13
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #14->13
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #14->13
+				"räävis" A Cmp/SgNom Cmp #14->13
+	"toorjâ" N Sem/Money Sg Acc @-F<OBJ #14->13
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #14->13
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #14->13
+				"räävis" N Sem/Hum Cmp/SgNom Cmp #14->13
+"<.>"
+	"." CLB #15->3
+: 
+"<Tom>"
+	"tot" Pron Dem Sg Acc @OBJ> #1->3
+: 
+"<ij>"
+	"ij" <aux> V IV Neg Ind Sg3 @FAUX #2->0
+: 
+"<mieđeet>"
+	"mieđettiđ" <mv> V TV Ind Prs ConNeg @IMV #3->2
+: 
+"<Kela>"
+	"Kela" N Prop Sem/Org ACR Sg Gen @<ADVL #4->2
+	"Kela" N Prop Sem/Org ACR Sg Nom @<SUBJ #4->2
+	"Kela" N Prop Sem/Sur Sg Nom @<SUBJ #4->2
+	"Kela" N Prop Sem/Sur Sg Gen @<ADVL #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<peic>"
+	"peic" Adv @<ADVL #6->3
+: 
+"<Työllisyysrahasto>"
+	"Työllisyysrahasto" ? @X #7->0
+"<.>"
+	"." CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Jis>"
+	"jis" CS @CVP #1->3
+: 
+"<tun>"
+	"tun" Pron Pers Sg2 Nom @SUBJ> #2->3
+: 
+"<uážuh>"
+	"uážžuđ" <mv> V TV Ind Prs Sg2 @FMV #3->0
+: 
+"<rävisolmoošškovlimtorjuu>"
+	"toorjâ" N Sem/Money Sg Acc @<OBJ #4->3
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #4->3
+			"rävisolmooš" N Sem/Hum Cmp/SgNom Cmp #4->3
+	"toorjâ" N Sem/Money Sg Acc @<OBJ #4->3
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #4->3
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #4->3
+				"räävis" A Cmp/Attr Cmp #4->3
+	"toorjâ" N Sem/Money Sg Acc @<OBJ #4->3
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #4->3
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #4->3
+				"räävis" A Cmp/SgNom Cmp #4->3
+	"toorjâ" N Sem/Money Sg Acc @<OBJ #4->3
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #4->3
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #4->3
+				"räävis" N Sem/Hum Cmp/SgNom Cmp #4->3
+: 
+"<ucemustáá>"
+	"ucce" Ex/A Der/Superl Ex/A Der/taa Adv @<ADVL #5->3
+	"ucemus" Ex/A Der/Superl Ex/A Der/taa Adv @<ADVL #5->3
+	"ucemustáá" Adv @<ADVL #5->3
+: 
+"<8>"
+	"8" Num Arab Sem/Time-clock Sg Nom @<ADVL #6->3
+: 
+"<oho>"
+	"okko" N Sem/Measr_Time Sg Gen @>P #7->8
+: 
+"<ääigi>"
+	"ääigi" Po @<ADVL #8->3
+"<,>"
+	"," CLB #9->10
+: 
+"<te>"
+	"te" Adv @<ADVL #10->12
+	"te" CS @CVP #10->12
+: 
+"<Kela>"
+	"Kela" N Prop Sem/Org ACR Sg Nom @SUBJ> #11->12
+	"Kela" N Prop Sem/Sur Sg Nom @SUBJ> #11->12
+: 
+"<puáhtá>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg3 @FS-<ADVL #12->3
+: 
+"<mieđettiđ>"
+	"mieđettiđ" V TV Inf @<OBJ #13->12
+: 
+"<tunjin>"
+	"tun" Pron Pers Sg2 Ill @<ADVL #14->12
+: 
+"<uáppuloovnâ>"
+	"uáppulovnâ" N Sem/Dummytag Sg Gen @>N #15->16
+: 
+"<staatâtáhádâs>"
+	"táhádâs" N Sem/Dummytag Sg Acc @-F<OBJ #16->13
+		"staatâ" N Sem/Org Cmp/SgGen Cmp #16->13
+"<.>"
+	"." CLB #17->3
+: 
+"<Táhádâs>"
+	"táhádâs" N Sem/Dummytag Sg Nom @SUBJ> #1->2
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<650>"
+	"650" Num Arab Ess @<ADVL #3->2
+	"650" Num Arab Par @<ADVL #3->2
+	"650" Num Arab Pl Abe Attr @>N #3->2
+	"650" Num Arab Pl Gen @>N #3->2
+	"650" Num Arab Pl Ill @<ADVL #3->2
+	"650" Num Arab Sg Nom @<SUBJ #3->2
+	"650" Num Arab Sg Com @<ADVL #3->2
+	"650" Num Arab Sg Gen @>N #3->2
+: 
+"<e>"
+	"e" N Sem/Sign ABBR Gram/TAbbr Sg Nom @<SUBJ #4->2
+"</>"
+	"/" PUNCT MIDDLE #5->6
+"<mp.>"
+	"mp" N ABBR Gram/IAbbr Sg Gen @<ADVL #6->2
+: 
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<Luuvâ>"
+	"luuhâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+	"luuppâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<lase>"
+	"lase" Adv @<ADVL #2->1
+	"lase" N Sem/Amount Sg Gen @<ADVL #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Rävisolmoošškovlimtoorjâ>"
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"rävisolmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" A Cmp/Attr Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" A Cmp/SgNom Cmp #1->0
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+		"škovlim" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+			"olmooš" N Sem/Hum Cmp/SgNom Cmp #1->0
+				"räävis" N Sem/Hum Cmp/SgNom Cmp #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<Työllisyysrahasto>"
+	"Työllisyysrahasto" ? @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<suomâkielân>"
+	"suomâkielâ" N Sem/Lang Sg Ill @<ADVL #5->1
+"<)>"
+	")" PUNCT RIGHT #6->5
+:  
+"<¶>"
+	"¶" CLB #7->1
+:\n
+
+]]></dependency></body></document>

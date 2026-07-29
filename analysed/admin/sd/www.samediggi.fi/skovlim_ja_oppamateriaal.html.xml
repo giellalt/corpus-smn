@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Škovlim já oppâmateriaal - Samediggi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2021</year><wordcount>52</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://www.samediggi.fi/toima/skovlim-ja-oppamateriaal/?lang=an</origFileName><parallel_text xml:lang="fin" location="koulutus_ja_oppimateriaali.html"/><parallel_text xml:lang="sme" location="skuvlen_ja_oahppamateriala.html"/><parallel_text xml:lang="sms" location="skooultos_da_mattmateriaal.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Škovlim>"
+	"škovlim" N Sem/Dummytag Sg Nom @HNOUN #1->3
+	"škovlim" N Sem/Dummytag Sg Gen @>N #1->3
+: 
+"<já>"
+	"já" CC @CNP #2->1
+: 
+"<oppâmateriaal>"
+	"oppâmateriaal" N Sem/Txt Sg Acc @<OBJ #3->3
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Sämitigge>"
+	"Sämitigge" N Prop Sem/Plc Sg Nom @SUBJ> #1->2
+: 
+"<oovded>"
+	"ovdediđ" <mv> V TV Ind Prs Sg3 @FMV #2->0
+: 
+"<sämmilij>"
+	"sämmilâš" N Sem/Hum Pl Gen @>N #3->5
+: 
+"<jieijâs>"
+	"jieš" Pron Refl Gen PxSg3 @>N #4->5
+: 
+"<kielâ>"
+	"kielâ" N Sem/Lang_Tool Sg Acc @<OBJ #5->2
+"<,>"
+	"," CLB #6->5
+: 
+"<kulttuur>"
+	"kulttuur" N Sem/Domain Sg Acc @<OBJ #7->5
+: 
+"<já>"
+	"já" CC @CNP #8->7
+: 
+"<jieijâskielâlâš>"
+	"jieijâskielâlâš" A Attr @>N #9->10
+: 
+"<máttááttâs>"
+	"máttááttâs" N Sem/Edu Sg Acc @<OBJ #10->5
+"<.>"
+	"." CLB #11->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<škovlim->"
+	"škovlim" N Sem/Dummytag Cmp/SgNom Cmp/SplitR Cmp @>N #2->9
+: 
+"<já>"
+	"já" CC @CNP #3->2
+: 
+"<oppâmâteriaallävdikodde>"
+	"oppâmâteriaallävdikodde" ? @X #4->0
+: 
+"<sehe>"
+	"sehe" Adv @ADVL> #5->9
+: 
+"<škovlim->"
+	"škovlim" N Sem/Dummytag Cmp/SgNom Cmp/SplitR Cmp @>N #6->12
+: 
+"<já>"
+	"já" CC @CVP #7->9
+: 
+"<oppâmâteriaaltoimâttâh>"
+	"oppâmâteriaaltoimâttâh" ? @X #8->0
+: 
+"<tuáimih>"
+	"toimâđ" <mv> V IV Ind Prs Pl3 @FMV #9->0
+: 
+"<ohtsâšpargoin>"
+	"ohtsâšpargo" N Sem/Dummytag Sg Com @<ADVL #10->9
+: 
+"<sämikuávlu>"
+	"sämikuávlu" N Sem/Plc Sg Gen @>N #11->12
+: 
+"<kieldâiguin>"
+	"kieldâ" N Sem/Org Pl Com @<ADVL #12->9
+"<,>"
+	"," CLB #13->12
+: 
+"<eres>"
+	"eres" Pron Indef Attr @>N #14->15
+: 
+"<škovliittâs>"
+	"škovliittâs" N Sem/Dummytag Sg Gen @>N #15->16
+: 
+"<uárnejeijeiguin>"
+	"uárnejeijee" N Sem/Hum NomAg Pl Com @<ADVL #16->9
+"<,>"
+	"," CLB #17->16
+: 
+"<tave-eennâmlâš>"
+	"tave-eennâmlâš" A Attr @>N #18->19
+: 
+"<uábbiorgaanijguin>"
+	"orgaan" N Sem/Org Pl Com @<ADVL #19->9
+		"uábbi" N Sem/Hum Cmp/SgNom Cmp #19->9
+: 
+"<já>"
+	"já" CC @CNP #20->19
+: 
+"<staatâ>"
+	"staatâ" N Sem/Org Sg Gen @>N #21->22
+: 
+"<máttááttâshaldâttâssáin>"
+	"haldâttâs" N Sem/Org Sg Com @<ADVL #22->9
+		"máttááttâs" N Sem/Edu Cmp/SgNom Cmp #22->9
+"<.>"
+	"." CLB #23->9
+: 
+"<Sämitigge>"
+	"Sämitigge" N Prop Sem/Plc Sg Nom @SUBJ> #1->2
+: 
+"<oovdâst>"
+	"ovdâstiđ" <mv> V TV Ind Prs Sg3 @FMV #2->0
+: 
+"<sämmilij>"
+	"sämmilâš" N Sem/Hum Pl Gen @>N #3->4
+: 
+"<jienâ>"
+	"jienâ" N Sem/Body-abstr_Prod-audio_Semcon Sg Acc @<OBJ #4->2
+: 
+"<škovlimpolitiikâst>"
+	"škovlimpolitiikâst" ? @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<Sämikielâ>"
+	"sämikielâ" N Sem/Lang Sg Gen @>N #1->6
+	"sämikielâ" N Sem/Lang Sg Nom @SUBJ> #1->6
+: 
+"<já>"
+	"já" CC @CNP #2->1
+: 
+"<kulttuur>"
+	"kulttuur" N Sem/Domain Sg Gen @>N #3->4
+: 
+"<sajattâh>"
+	"sajattâh" N Sem/Plc Sg Nom @SUBJ> #4->1
+: 
+"<máttááttâsâst>"
+	"máttááttâs" N Sem/Edu Sg Loc @ADVL> #5->6
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #6->0
+: 
+"<ohtâ>"
+	"ohtâ" Num Sg Nom @<SUBJ #7->6
+	"ohtâ" Pron Indef Sg Nom @<SUBJ #7->6
+: 
+"<tehálumosijn>"
+	"tehálumos" A Pl Loc @Pron< #8->7
+	"tehálâš" Ex/A Der/Superl A Pl Loc @Pron< #8->7
+: 
+"<sämmilij>"
+	"sämmilâš" N Sem/Hum Pl Gen @>N #9->10
+: 
+"<puátteevuođâ>"
+	"puátteevuotâ" N Sem/Time Sg Gen @<ADVL #10->6
+: 
+"<koččâmâšâin>"
+	"koččâmâš" N Sem/Prod-ling Pl Loc @Pron< #11->7
+"<.>"
+	"." CLB #12->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Uđđâ>"
+	"uuđâs" A Attr @>N #1->2
+: 
+"<materiaal>"
+	"materiaal" N Sem/Mat Sg Gen @>N #2->3
+: 
+"<máttááttâsân>"
+	"máttááttâs" N Sem/Edu Sg Ill @<ADVL #3->3
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+
+]]></dependency></body></document>

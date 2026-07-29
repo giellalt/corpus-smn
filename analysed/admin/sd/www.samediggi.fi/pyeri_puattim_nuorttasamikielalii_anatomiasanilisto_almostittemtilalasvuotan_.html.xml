@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Pyeri puáttim nuorttâsämikielâlii anatomiasänilisto almostittemtilálâšvuotân! - Samediggi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2022</year><wordcount>75</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://www.samediggi.fi/2021/10/25/pyeri-puattim-nuorttasamikielalii-anatomiasanilisto-almostittemtilalasvuotan/?lang=an</origFileName><parallel_text xml:lang="fin" location="tervetuloa_koltansaamen_anatomiasanaston_julkaisutilaisuuteen_.html"/><parallel_text xml:lang="sme" location="bures_boahtin_nuortalasgiela_anatomiijasatnelisttu_almmuhandilalasvuhtii_.html"/><parallel_text xml:lang="sms" location="tiorv_pue_ttmest_nuorttsaa_m_anatomiasannoozz_olmsta_ttempo_dde_.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Pyeri>"
+	"pyeri" A Attr @>N #1->2
+: 
+"<puáttim>"
+	"puáttim" N Sem/Dummytag Sg Gen @>A #2->3
+	"puáttim" N Sem/Dummytag Sg Nom @HNOUN #2->3
+: 
+"<nuorttâsämikielâlii>"
+	"nuorttâsämikielâlâš" A Sg Gen @>N #3->4
+: 
+"<anatomiasänilisto>"
+	"listo" N Sem/Txt Sg Gen @>N #4->5
+		"sääni" N Sem/Cat Cmp/SgNom Cmp #4->5
+			"anatomia" N Sem/Dummytag Cmp/SgNom Cmp #4->5
+: 
+"<almostittemtilálâšvuotân>"
+	"almostittemtilálâšvuotâ" N Sem/Event Sg Ill @<ADVL #5->5
+"<!>"
+	"!" CLB #6->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Säämi>"
+	"Säämi" N Prop Sem/Plc Sg Gen @>N #1->2
+	"säämi" N Sem/Hum_Lang Sg Gen @>N #1->2
+: 
+"<Kielâkäldee>"
+	"Kielâkäldee" N Prop Sem/Org Sg Nom @SUBJ> #2->3
+: 
+"<almostit>"
+	"almostittiđ" <mv> V TV Ind Prs Sg3 @FMV #3->0
+: 
+"<Kielâohhoost>"
+	"okko" N Sem/Measr_Time Sg Loc @<ADVL #4->3
+		"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #4->3
+: 
+"<26.10.2021>"
+	"26.10.2021" Num Arab Sem/Date Sg Nom @<ADVL #5->3
+: 
+"<nuorttâsämikielâlii>"
+	"nuorttâsämikielâlâš" A Sg Gen @>N #6->7
+: 
+"<anatomiasänilisto>"
+	"listo" N Sem/Txt Sg Acc @<OBJ #7->3
+		"sääni" N Sem/Cat Cmp/SgNom Cmp #7->3
+			"anatomia" N Sem/Dummytag Cmp/SgNom Cmp #7->3
+	"listo" N Sem/Txt Sg Nom @<SUBJ #7->3
+		"sääni" N Sem/Cat Cmp/SgNom Cmp #7->3
+			"anatomia" N Sem/Dummytag Cmp/SgNom Cmp #7->3
+"<.>"
+	"." CLB #8->3
+: 
+"<Sánádâh>"
+	"sánádâh" N Sem/Dummytag Sg Nom @SUBJ> #1->2
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<digitaalhäämist>"
+	"häämi" N Sem/Feat-phys Sg Loc @<ADVL #3->2
+		"digitaal" A Cmp/Attr Cmp #3->2
+: 
+"<já>"
+	"já" CC @CVP #4->2
+: 
+"<tot>"
+	"tot" Pron Dem Sg Nom @SUBJ> #5->6
+: 
+"<vuáđuduvá>"
+	"vuáđuduđ" <mv> V IV Ind Prs Sg3 @FMV #6->2
+: 
+"<Egil>"
+	"Egil" N Prop Sem/Mal Attr @>N #7->8
+: 
+"<Utsi>"
+	"Utsi" N Prop Sem/Sur Sg Gen @>N #8->9
+: 
+"<ive>"
+	"ihe" N Sem/Time Sg Gen @<ADVL #9->6
+: 
+"<1986>"
+	"1986" Num Arab Sem/Year Sg Nom @<ADVL #10->6
+: 
+"<almostittum>"
+	"almostittiđ" Ex/V Ex/TV Der/Pass V IV PrfPrc @X #11->0
+: 
+"<Anatomiia>"
+	"Anatomiia" ? @X #12->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #13->14
+"<kiirján>"
+	"kirje" N Sem/Txt Sg Ill @<ADVL #14->6
+"<.>"
+	"." CLB #15->2
+: 
+"<Liisa>"
+	"Liisa" N Prop Sem/Fem Attr @>N #1->2
+: 
+"<Helander>"
+	"Helander" N Prop Sem/Sur Sg Nom @SUBJ> #2->3
+: 
+"<lii>"
+	"leđe" <aux> V IV Ind Prs Sg3 @FAUX #3->0
+: 
+"<ráhtám>"
+	"rähtiđ" <mv> V TV PrfPrc @IMV #4->3
+: 
+"<säniliiston>"
+	"sänilisto" N Sem/Dummytag Sg Ill @<ADVL #5->4
+: 
+"<kuuvijd>"
+	"kope" N Sem/Plc Pl Ill @<ADVL #6->4
+	"kove" N Sem/Prod-vis Pl Ill @<ADVL #6->4
+"<.>"
+	"." CLB #7->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Puohháid>"
+	"puohah" Pron Indef Pl Ill @ADVL> #1->4
+: 
+"<ávus>"
+	"ávus" A Attr @>N #2->3
+: 
+"<almostittemtilálâšvuotâ>"
+	"almostittemtilálâšvuotâ" N Sem/Event Sg Nom @SUBJ> #3->4
+: 
+"<uárnejuvvoo>"
+	"orniđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #4->0
+: 
+"<káidusohtâvuođâin>"
+	"káidusohtâvuotâ" N Sem/Dummytag Pl Loc @<ADVL #5->4
+: 
+"<tijme>"
+	"tijme" N Sem/Measr_Time Sg Gen @<ADVL #6->4
+	"tijme" N Sem/Measr_Time Sg Nom @<SUBJ #6->4
+: 
+"<13.00>"
+	"13.00" Num Arab Sem/Time-clock Sg Nom @<SUBJ #7->4
+: 
+"<Microsoft>"
+	"Microsoft" N Prop Sem/Org Sg Gen @Num< #8->7
+: 
+"<Teams>"
+	"Teams" N Prop Sem/Obj Sg Gen @>P #9->10
+: 
+"<peht>"
+	"peht" Po @<ADVL #10->4
+: 
+"<čujottâsâst>"
+	"čujottâs" N Sem/Plc-abstr Sg Loc @<ADVL #11->4
+: Nuõrttsääʹm anatomiasannõsǩeʹrjj 
+"<¶>"
+	"¶" CLB #12->4
+:\n
+"<Pyeri>"
+	"pyeri" A Attr @>N #1->2
+: 
+"<puáttim>"
+	"puáttim" N Sem/Dummytag Sg Nom @HNOUN #2->0
+"<!>"
+	"!" CLB #3->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lasetiäđuh>"
+	"lasetiätu" N Sem/Prod-cogn_Txt Pl Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Má.>"
+	"má" A ABBR Gram/TAbbr Attr @>N #1->2
+: 
+"<säämi>"
+	"säämi" N Sem/Hum_Lang Sg Gen @>N #2->3
+: 
+"<kielâašijčällee>"
+	"kielâašijčällee" N Sem/Hum NomAg Sg Nom @>N #3->4
+: 
+"<Marko>"
+	"Marko" N Prop Sem/Mal Attr @>N #4->5
+: 
+"<Marjomaa>"
+	"Marjomaa" N Prop Sem/Sur Sg Nom @HNOUN #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<010>"
+	"010" Num Arab Sem/ID @>Num #7->8
+: 
+"<839>"
+	"839" Num Arab Sg Nom @HNOUN #8->5
+: 
+"<3183>"
+	"3183" Num Arab Par @X #9->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #10->11
+: 
+"<050>"
+	"050" Num Arab Sem/ID @>Num #11->12
+: 
+"<438>"
+	"438" Num Arab Par @>Num #12->13
+: 
+"<2484>"
+	"2484" Num Arab Sem/Year Sg Nom @HNOUN #13->5
+"<,>"
+	"," CLB #14->13
+: 
+"<marko.marjomaa(at)samediggi.fi>"
+	"marko.marjomaa(at)samediggi.fi" URL #15->15
+: 
+"<¶>"
+	"¶" CLB #16->5
+:\n
+"<Má.>"
+	"má" A ABBR Gram/TAbbr Attr @>N #1->2
+: 
+"<nuorttâlâškielâ>"
+	"nuorttâlâškielâ" N Sem/Lang Sg Gen @>N #2->3
+: 
+"<kielâpargee>"
+	"pargee" N Sem/Hum NomAg Sg Nom @>N #3->4
+		"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #3->4
+: 
+"<Mervi>"
+	"Mervi" N Prop Sem/Fem Attr @>N #4->5
+: 
+"<Semenoff>"
+	"Semenoff" N Prop Sem/Sur Sg Nom @HNOUN #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<010>"
+	"010" Num Arab Sem/ID @>Num #7->8
+: 
+"<839>"
+	"839" Num Arab Sg Nom @HNOUN #8->5
+: 
+"<3139>"
+	"3139" Num Arab Par @X #9->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #10->11
+: 
+"<040>"
+	"040" Num Arab Sem/ID @>Num #11->12
+: 
+"<184>"
+	"184" Num Arab Par @>Num #12->13
+: 
+"<6604>"
+	"6604" Num Arab Par @X #13->0
+"<,>"
+	"," CLB #14->13
+: 
+"<mervi.semenoff(at)samediggi.fi>"
+	"mervi.semenoff(at)samediggi.fi" URL #15->15
+: 
+"<¶>"
+	"¶" CLB #16->5
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Samediggi - Saamelaiskäräjät - Sämmilij kielâliih vuoigâdvuo&amp;#273;ah iä olášuu</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><wordcount>32</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.samediggi.fi/index2.php?option=com_content&amp;task=view&amp;id=518&amp;lang=anaras.html</origFileName><parallel_text xml:lang="fin" location="index2.php_option=com_content_task=view_id=518_lang=finnish.html"/><parallel_text xml:lang="sme" location="index2.php_option=com_content_task=view_id=518_lang=davvi.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Sämmilij>"
+	"sämmilâš" N Sem/Hum Pl Gen @>A #1->2
+: 
+"<kielâliih>"
+	"kielâlâš" A Pl Nom @SUBJ> #2->4
+: 
+"<vuoigâdvuođah>"
+	"vuoigâdvuotâ" N Sem/Rule Pl Nom @SUBJ> #3->4
+: 
+"<iä>"
+	"ij" <aux> V IV Neg Ind Pl3 @FAUX #4->0
+: 
+"<olášuu>"
+	"olášuđ" <mv> V IV Ind Prs ConNeg @IMV #5->4
+: 
+"<¶>"
+	"¶" CLB #6->4
+:\n
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<värisaavâjođetteijee>"
+	"värisaavâjođetteijee" N Sem/Hum NomAg Sg Nom @>N #2->3
+: 
+"<Irja>"
+	"Irja" N Prop Sem/Fem Attr @>N #3->4
+: 
+"<Seurujärvi-Kari>"
+	"Kari" N Prop Sem/Fem Sg Nom @SUBJ> #4->5
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #4->5
+	"Kari" N Prop Sem/Mal Sg Nom @SUBJ> #4->5
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #4->5
+	"Kari" N Prop Sem/Fem Sg Nom @SUBJ> #4->5
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #4->5
+	"Kari" N Prop Sem/Mal Sg Nom @SUBJ> #4->5
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #4->5
+: 
+"<tiäduttij>"
+	"tiäduttiđ" <mv> V TV Ind Prt Sg3 @FMV #5->0
+: 
+"<sänivuárustis>"
+	"vuáru" N Sem/Ani Sg Loc PxSg3 @<ADVL #6->5
+		"sääni" N Sem/Cat Cmp/SgNom Cmp #6->5
+: 
+"<kielâiäláskittemseminaarist>"
+	"seminaar" N Sem/Edu_Event Sg Loc @<ADVL #7->5
+		"iäláskittiđ" Ex/V TV Der/NomAct N Cmp/SgNom Cmp #7->5
+			"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #7->5
+	"seminaar" N Sem/Edu_Event Sg Loc @<ADVL #7->5
+		"iäláskiđ" Ex/V IV Der/Caus Ex/V Der/NomAct N Cmp/SgNom Cmp #7->5
+			"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #7->5
+: 
+"<13.9.2011>"
+	"13.9.2011" Num Arab Sem/Date Sg Nom @<ADVL #8->5
+: 
+"<tom>"
+	"tot" Pron Dem Sg Acc @<OBJ #9->5
+"<,>"
+	"," CLB #10->11
+: 
+"<et>"
+	"et" CS @CVP #11->15
+: 
+"<sämmilij>"
+	"sämmilâš" N Sem/Hum Pl Gen @>A #12->13
+: 
+"<kielâliih>"
+	"kielâlâš" A Pl Nom @SUBJ> #13->15
+: 
+"<vuoigâdvuođah>"
+	"vuoigâdvuotâ" N Sem/Rule Pl Nom @SUBJ> #14->15
+: 
+"<iä>"
+	"ij" <aux> V IV Neg Ind Pl3 @FS-<ADVL #15->5
+: 
+"<olášuu>"
+	"olášuđ" <mv> V IV Ind Prs ConNeg @FS-IMV #16->15
+: 
+"<Suomâst>"
+	"Suomâ" N Prop Sem/Plc Sg Loc @<ADVL #17->16
+: 
+"<vuáđulaavâ>"
+	"vuáđulaahâ" N Sem/Rule Sg Gen @>N #18->19
+: 
+"<uáivildem>"
+	"uáivildiđ" Ex/V TV Der/NomAct N Sg Gen @>N #19->20
+: 
+"<vuovvijn>"
+	"vyehi" N Sem/Feat Sg Com @<ADVL #20->16
+"<.>"
+	"." CLB #21->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Njuálguliŋkkâ>"
+	"Njuálguliŋkkâ" ? @X #1->0
+: 
+"<I>"
+	"I" N Prop Sem/Hum ACR @X #2->0
+: 
+"<värisaavâjođetteijee>"
+	"värisaavâjođetteijee" N Sem/Hum NomAg Sg Nom @>N #3->4
+: 
+"<Irja>"
+	"Irja" N Prop Sem/Fem Attr @>N #4->5
+: 
+"<Seurujärvi-Kari>"
+	"Kari" N Prop Sem/Fem Sg Gen @>N #5->6
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #5->6
+	"Kari" N Prop Sem/Mal Sg Gen @>N #5->6
+		"Seurujärvi" N Prop Sem/Plc Cmp/SgNom Cmp/Hyph Cmp #5->6
+	"Kari" N Prop Sem/Fem Sg Gen @>N #5->6
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #5->6
+	"Kari" N Prop Sem/Mal Sg Gen @>N #5->6
+		"Seurujärvi" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #5->6
+: 
+"<sänivuárun>"
+	"vuáru" N Sem/Ani Sg Ill @<ADVL #6->6
+		"sääni" N Sem/Cat Cmp/SgNom Cmp #6->6
+: 
+"<13.9.2011>"
+	"13.9.2011" Num Arab Sem/Date Sg Nom @HNOUN #7->6
+: 
+"<tast>"
+	"tast" Adv @<ADVL #8->7
+"<.>"
+	"." CLB #9->9
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

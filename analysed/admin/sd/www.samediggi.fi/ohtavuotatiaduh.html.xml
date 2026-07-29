@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Ohtâvuotâtiäđuh - Samediggi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2021</year><wordcount>43</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://www.samediggi.fi/toima/samikiela/kielapierval/ohtavuotatiaduh/?lang=an</origFileName><parallel_text xml:lang="fin" location="yhteystiedot(0).html"/><parallel_text xml:lang="sme" location="oktavuodadiedut.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Ohtâvuotâtiäđuh>"
+	"tiätu" N Sem/Prod-cogn_Txt Pl Nom @HNOUN #1->0
+		"ohtâvuotâ" N Sem/Plc-abstr_Rel_State Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #1->3
+: 
+"<má.>"
+	"má" A ABBR Gram/TAbbr Attr @>N #2->3
+: 
+"<kielâpiervâlstivrejeijee>"
+	"stivrejeijee" N Sem/Hum NomAg Sg Nom @>N #3->4
+		"piervâl" N Sem/Build Cmp/SgNom Cmp #3->4
+			"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #3->4
+: 
+"<Niina>"
+	"Niina" N Prop Sem/Fem Attr @>N #4->5
+: 
+"<Aikio-Siltala>"
+	"Siltala" N Prop Sem/Sur Sg Gen @>N #5->15
+		"Aikio" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #5->15
+	"Siltala" N Prop Sem/Sur Sg Nom @SUBJ> #5->15
+		"Aikio" N Prop Sem/Sur Cmp/SgNom Cmp/Hyph Cmp #5->15
+: 
+"<niina.aikio-siltala(at)samediggi.fi>"
+	"niina.aikio-siltala(at)samediggi.fi" URL #6->6
+: 
+"<+358>"
+	"+358" Num Arab Sg Acc @OBJ> #7->15
+: 
+"<40 487>"
+	"40 487" Num Arab Sg Acc @OBJ> #8->15
+: 
+"<5414>"
+	"5414" Num Arab Pl Acc @OBJ> #9->15
+	"5414" Num Arab Sg Acc @OBJ> #9->15
+: 
+"</>"
+	"/" PUNCT MIDDLE #10->11
+: 
+"<+358>"
+	"+358" Num Arab Sg Acc @OBJ> #11->15
+: 
+"<10 839>"
+	"10 839" Num Arab Sg Acc @OBJ> #12->15
+: 
+"<3115>"
+	"3115" Num Arab Pl Acc @>N #13->14
+	"3115" Num Arab Sg Acc @>N #13->14
+: 
+"<Sämikielâ>"
+	"sämikielâ" N Sem/Lang Sg Gen @Num< #14->12
+: 
+"<toimâttâh>"
+	"toimâttiđ" <mv> V TV Ind Prs Sg2 Err/Orth @FMV #15->0
+"<,>"
+	"," CLB #16->15
+: 
+"<Sämitigge>"
+	"Sämitigge" N Prop Sem/Plc Sg Nom @<SUBJ #17->15
+"<,>"
+	"," CLB #18->17
+: 
+"<Sajos>"
+	"Sajos" N Prop Sem/Plc Sg Nom @<SUBJ #19->17
+"<,>"
+	"," CLB #20->19
+: 
+"<99870>"
+	"99870" Num Arab Sem/ID @>N #21->22
+: 
+"<Aanaar>"
+	"Aanaar" N Prop Sem/Plc Sg Nom @APP-N< #22->19
+:  
+"<¶>"
+	"¶" CLB #23->15
+:\n
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<kielâtorvočällee>"
+	"kielâtorvočällee" N Sem/Hum NomAg Sg Nom @>N #2->3
+: 
+"<Anne>"
+	"Anne" N Prop Sem/Fem Attr @>N #3->4
+: 
+"<Kirste>"
+	"Kirste" N Prop Sem/Fem Attr @>N #4->5
+: 
+"<Aikio>"
+	"Aikio" N Prop Sem/Sur Sg Gen @>N #5->15
+	"Aikio" N Prop Sem/Sur Sg Nom @SUBJ> #5->15
+: 
+"<anne-kirste.aikio@samediggi.fi>"
+	"anne-kirste.aikio@samediggi.fi" URL #6->6
+: 
+"<+358>"
+	"+358" Num Arab Sg Acc @OBJ> #7->15
+: 
+"<40 707>"
+	"40 707" Num Arab Sg Acc @OBJ> #8->15
+: 
+"<5626>"
+	"5626" Num Arab Pl Acc @OBJ> #9->15
+	"5626" Num Arab Sg Acc @OBJ> #9->15
+: 
+"</>"
+	"/" PUNCT MIDDLE #10->11
+: 
+"<+358>"
+	"+358" Num Arab Sg Acc @OBJ> #11->15
+: 
+"<10 839>"
+	"10 839" Num Arab Sg Acc @OBJ> #12->15
+: 
+"<3124>"
+	"3124" Num Arab Pl Acc @>N #13->14
+	"3124" Num Arab Sg Acc @>N #13->14
+: 
+"<Sämikielâ>"
+	"sämikielâ" N Sem/Lang Sg Gen @Num< #14->12
+: 
+"<toimâttâh>"
+	"toimâttiđ" <mv> V TV Ind Prs Sg2 Err/Orth @FMV #15->0
+"<,>"
+	"," CLB #16->15
+: 
+"<Sämitigge>"
+	"Sämitigge" N Prop Sem/Plc Sg Nom @<SUBJ #17->15
+"<,>"
+	"," CLB #18->17
+: 
+"<Sajos>"
+	"Sajos" N Prop Sem/Plc Sg Nom @<SUBJ #19->17
+"<,>"
+	"," CLB #20->19
+: 
+"<99870>"
+	"99870" Num Arab Sem/ID @>N #21->22
+: 
+"<Aanaar>"
+	"Aanaar" N Prop Sem/Plc Sg Nom @APP-N< #22->19
+:  
+"<¶>"
+	"¶" CLB #23->15
+:\n
+
+]]></dependency></body></document>

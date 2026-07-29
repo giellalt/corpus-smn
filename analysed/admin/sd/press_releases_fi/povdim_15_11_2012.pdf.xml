@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Kulttuurseminaar</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2012</year><wordcount>79</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.samediggi.fi/index.php?option=com_docman&amp;task=doc_download&amp;gid=1993&amp;Itemid=10</origFileName><parallel_text xml:lang="fin" location="kutsu_15_11_2012.pdf"/><parallel_text xml:lang="sme" location="bovdehus_15_11_2012.pdf"/><parallel_text xml:lang="sms" location="kaccs_15_11_2012.pdf"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 134043 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Kulttuurseminaar>"
+	"seminaar" N Sem/Edu_Event Sg Nom @SUBJ> #1->8
+		"kulttuur" N Sem/Domain Cmp/SgNom Cmp #1->8
+: 
+"<26.11.2012>"
+	"26.11.2012" Num Arab Sem/Date Sg Nom @SUBJ> #2->8
+"<,>"
+	"," CLB #3->2
+: 
+"<Säämi kulttuurkuávdáš>"
+	"Säämi kulttuurkuávdáš" N Prop Sem/Plc Sg Nom @>N #4->5
+: 
+"<Sajos>"
+	"Sajos" N Prop Sem/Plc Sg Acc @OBJ> #5->8
+	"Sajos" N Prop Sem/Plc Sg Nom @SUBJ> #5->8
+"<,>"
+	"," CLB #6->5
+: 
+"<Aanaar>"
+	"Aanaar" N Prop Sem/Plc Sg Nom @SUBJ> #7->2
+	"Aanaar" N Prop Sem/Plc Sg Gen @ADVL> #7->2
+: 
+"<Povdip>"
+	"povdiđ" <mv> V TV Ind Prs Pl1 @FMV #8->0
+: 
+"<puoh>"
+	"puoh" Pron Indef Attr @>N #9->10
+: 
+"<sämituáimeid>"
+	"tuáimee" N Sem/Dummytag NomAg Pl Acc @-FSUBJ> #10->11
+		"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #10->11
+: 
+"<suogârdâllâđ>"
+	"suogârdâllâđ" V Inf @ICL-OBJ #11->8
+: 
+"<puátteevuođâ>"
+	"puátteevuotâ" N Sem/Time Sg Gen @<ADVL #12->8
+: 
+"<tiäddučuágástuvâid>"
+	"čuogâstâh" Err/Orth N Sem/Dummytag Pl Acc @<OBJ #13->13
+		"tiäddu" N Sem/Feat-phys Cmp/SgNom Cmp #13->13
+: 
+"<já>"
+	"já" CC @CVP #14->8
+: 
+"<ovdediđ>"
+	"ovdediđ" V TV Inf @<OBJ #15->15
+: 
+"<išeruuđâi>"
+	"išeruttâ" N Sem/Money Pl Gen @>N #16->17
+: 
+"<čuosâttem>"
+	"čuosâttiđ" Ex/V Der/NomAct N Sg Acc @-F<OBJ #17->15
+: 
+"<siärvusáid>"
+	"siärvus" N Sem/Dummytag Pl Ill @<ADVL #18->8
+: 
+"<tehálâš>"
+	"tehálâš" A Attr @>N #19->20
+: 
+"<projektáid>"
+	"proojeekt" N Sem/Act Pl Ill @<ADVL #20->8
+"<.>"
+	"." CLB #21->8
+: 
+"<Seminaar>"
+	"seminaar" N Sem/Edu_Event Sg Gen @>N #1->2
+: 
+"<iiđeedpeeivi>"
+	"peivi" N Sem/Time Sg Gen @ADVL> #2->3
+		"iiđeed" N Sem/Time Cmp/SgNom Cmp #2->3
+: 
+"<kevttip>"
+	"kevttiđ" <mv> V TV Ind Prs Pl1 @FMV #3->0
+: 
+"<uuccâmlattiimân>"
+	"lattim" N Sem/Act Sg Ill @<ADVL #4->3
+		"uuccâm" N Sem/Dummytag Cmp/SgNom Cmp #4->3
+: 
+"<sehe>"
+	"sehe" Adv @<ADVL #5->3
+: 
+"<kulttuurmeriruuđâ>"
+	"ruttâ" N Sem/Money Sg Gen @>N #6->8
+		"meeri" N Sem/Amount_Semcon Cmp/SgNom Cmp #6->8
+			"kulttuur" N Sem/Domain Cmp/SgNom Cmp #6->8
+: 
+"<teknisâš>"
+	"teknisâš" A Attr @>N #7->8
+: 
+"<ravvuid>"
+	"raavâ" N Sem/Prod-ling Pl Acc @<OBJ #8->3
+: 
+"<sehe>"
+	"sehe" Adv @<ADVL #9->3
+: 
+"<kuullâp>"
+	"kuullâđ" <mv> V TV Ind Prs Pl1 @FMV #10->3
+: 
+"<jieškote-uv>"
+	"jieškote" Pron Indef Sg Nom Foc/uv @<SUBJ #11->10
+: 
+"<ruttâdemkäldein>"
+	"käldee" N Sem/Plc_Txt Sg Com @<ADVL #12->10
+		"ruttâdem" N Sem/Dummytag Cmp/SgNom Cmp #12->10
+: 
+"<já>"
+	"já" CC @CVP #13->10
+: 
+"<eehidpeeivi>"
+	"peivi" N Sem/Time Sg Gen @ADVL> #14->15
+		"eehid" N Sem/Time Cmp/SgNom Cmp #14->15
+: 
+"<algâttep>"
+	"algâttiđ" <mv> V TV Ind Prs Pl1 @FMV #15->10
+: 
+"<vuáđusavváin>"
+	"vuáđusaahâ" N Sem/Dummytag Sg Com @<ADVL #16->15
+: 
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Acc @<OBJ #17->15
+: 
+"<">"
+	""" PUNCT #18->19
+"<taaidâ->"
+	"taaiđâ" Err/Orth N Sem/Prod-vis Cmp/SgNom Cmp/SplitR Cmp @>N #19->21
+"<,>"
+	"," CLB #20->19
+: 
+"<tyeji>"
+	"tyeji" N Sem/Domain Sg Nom @<SUBJ #21->15
+: 
+"<já>"
+	"já" CC @CNP #22->21
+: 
+"<kulttuurpoolitlâš>"
+	"kulttuurpoolitlâš" ? @X #23->0
+"<">"
+	""" PUNCT #24->24
+: 
+"<->"
+	"-" PUNCT MIDDLE #25->26
+"<ohjelmhammiittâsâst>"
+	"hammiittâs" N Sem/Dummytag Sg Loc @<ADVL #26->15
+		"ohjelm" N Sem/Act_Tool-it Cmp/SgNom Cmp #26->15
+"<.>"
+	"." CLB #27->3
+: 
+"<Seminaar>"
+	"seminaar" N Sem/Edu_Event Sg Nom @SUBJ> #1->3
+: 
+"<loopâst>"
+	"loopâst" Adv @ADVL> #2->3
+	"loppâ" N Sem/Time Sg Loc @ADVL> #2->3
+: 
+"<almostittoo>"
+	"almostittiđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #4->5
+: 
+"<kulttuurlävdikode>"
+	"kodde" N Sem/Ani Sg Gen @>N #5->6
+		"lävdi" N Sem/Plc Cmp/SgNom Cmp #5->6
+			"kulttuur" N Sem/Domain Cmp/SgNom Cmp #5->6
+: 
+"<mieđettem>"
+	"mieđettiđ" Ex/V TV Der/NomAct N Sg Gen @>N #6->7
+: 
+"<kulttuurpalhâšume>"
+	"palhâšume" N Sem/Prod Sg Gen @<ADVL #7->3
+		"kulttuur" N Sem/Domain Cmp/SgNom Cmp #7->3
+	"palhâšume" N Sem/Prod Sg Nom @<SUBJ #7->3
+		"kulttuur" N Sem/Domain Cmp/SgNom Cmp #7->3
+"<.>"
+	"." CLB #8->3
+: 
+"<Nuuvtá>"
+	"nuuvtá" Adv @ADVL> #1->6
+: 
+"<já>"
+	"já" CC @CVP #2->6
+: 
+"<puohháid>"
+	"puohah" Pron Indef Pl Ill @ADVL> #3->6
+: 
+"<ávus>"
+	"ávus" A Attr @>N #4->5
+: 
+"<tilálâšvuođâ>"
+	"tilálâšvuotâ" N Sem/Event Sg Acc @OBJ> #5->6
+: 
+"<uárnee>"
+	"orniđ" <mv> V TV Ind Prs Sg3 @FMV #6->0
+: 
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #7->8
+: 
+"<kulttuurlävdikodde>"
+	"kodde" N Sem/Ani Sg Nom @<SUBJ #8->6
+		"lävdi" N Sem/Plc Cmp/SgNom Cmp #8->6
+			"kulttuur" N Sem/Domain Cmp/SgNom Cmp #8->6
+"<.>"
+	"." CLB #9->6
+: 
+"<Ohjelm>"
+	"ohjelm" N Sem/Act_Tool-it Sg Nom @SUBJ> #1->2
+: 
+"<kávnoo>"
+	"kavnuđ" <mv> V IV Ind Prs Sg3 @FMV #2->0
+	"kavnâđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<čujottâsâst>"
+	"čujottâs" N Sem/Plc-abstr Sg Loc @<ADVL #3->2
+"<:>"
+	":" CLB #4->2
+: 
+"<www.samediggi.fi>"
+	"www.samediggi.fi" URL #5->5
+: 
+"<Tiervâpuáttim>"
+	"tiervâpuáttim" N Sem/Dummytag Sg Nom @HNOUN #6->3
+"<!>"
+	"!" CLB #7->2
+: 
+"<Lasetiäđuh>"
+	"lasetiätu" N Sem/Prod-cogn_Txt Pl Nom @HNOUN #1->0
+: 
+"<já>"
+	"já" CC @CNP #2->1
+: 
+"<almottâtmeh>"
+	"almottâttâđ" Ex/V IV Der/NomAct N Pl Nom @HNOUN #3->1
+"<:>"
+	":" CLB #4->1
+: 
+"<Má.>"
+	"má" A ABBR Gram/TAbbr Attr @>N #5->6
+: 
+"<vuávájeijee>"
+	"vuávájeijee" N Sem/Hum NomAg Sg Gen @>N #6->3
+	"vuávájeijee" N Sem/Hum NomAg Sg Nom @HNOUN #6->3
+"<,>"
+	"," CLB #7->6
+: 
+"<Marjukka>"
+	"Marjukka" N Prop Sem/Fem Attr @>N #8->9
+: 
+"<Helander>"
+	"Helander" N Prop Sem/Sur Sg Nom @HNOUN #9->6
+"<,>"
+	"," CLB #10->9
+: 
+"<marjukka.helander(at)samediggi.fi>"
+	"marjukka.helander(at)samediggi.fi" URL #11->11
+"<,>"
+	"," CLB #12->1
+: 
+"<puh.>"
+	"puh" N ABBR Gram/TNumAbbr Attr @>Num #13->14
+"<050-911>"
+	"050-911" Num Arab Sem/ID @>Num #14->15
+: 
+"<9675>"
+	"9675" Num Arab Sg Nom @HNOUN #15->9
+: 
+"<Kulttuurčällee>"
+	"čällee" N Sem/Hum NomAg Sg Gen @>N #16->18
+		"kulttuur" N Sem/Domain Cmp/SgNom Cmp #16->18
+"<,>"
+	"," CLB #17->16
+: 
+"<Inker-Anni>"
+	"Inker-Anni" N Prop Sem/Fem Attr @>N #18->19
+: 
+"<Sara>"
+	"Sara" N Prop Sem/Fem Sg Nom @HNOUN #19->13
+	"Sara" N Prop Sem/Sur Sg Nom @HNOUN #19->13
+"<,>"
+	"," CLB #20->19
+: 
+"<inker-anni.sara(at)samediggi.fi>"
+	"inker-anni.sara(at)samediggi.fi" URL #21->21
+"<,>"
+	"," CLB #22->1
+: 
+"<puh.>"
+	"puh" N ABBR Gram/TNumAbbr Attr @>Num #23->24
+"<040-840>"
+	"040-840" Num Arab Sem/ID @>Num #24->25
+: 
+"<0383>"
+	"0383" Num Arab Sem/ID @X #25->0
+:  
+"<¶>"
+	"¶" CLB #26->1
+:\n
+
+]]></dependency></body></document>

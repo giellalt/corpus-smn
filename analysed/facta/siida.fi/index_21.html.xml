@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Proojeekttooimah – Siida</title><genre code="facta"/><author><unknown/></author><wordcount>51</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://siida.fi/anaraskiela/saamimuseo/proojeekttooimah/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Mij>"
+	"mun" Pron Pers Pl1 Nom @SUBJ> #1->2
+: 
+"<lep>"
+	"leđe" <mv> V IV Ind Prs Pl1 @FMV #2->0
+: 
+"<áávus>"
+	"áávus" Adv @<ADVL #3->2
+: 
+"<10>"
+	"10" Num Arab Sem/Time-clock Sg Nom @<ADVL #4->2
+: 
+"<- 17>"
+	"- 17" Num Arab Sem/ID @<ADVL #5->2
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<Uusâ>"
+	"uuccâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+	"uussâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Säämimuseo>"
+	"museo" N Sem/Build_Org Sg Nom @HNOUN #1->0
+		"säämi" N Sem/Hum_Lang Cmp/SgGen Err/Orth Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Proojeekttooimah>"
+	"toimâ" N Sem/Act Pl Nom @HNOUN #1->0
+		"proojeekt" N Sem/Act Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Proojeekttooimah>"
+	"toimâ" N Sem/Act Pl Nom @HNOUN #1->0
+		"proojeekt" N Sem/Act Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Mii>"
+	"mun" Pron Pers Pl1 Gen @>N #1->2
+: 
+"<proojeekttooimâi>"
+	"toimâ" N Sem/Act Pl Gen @>N #2->3
+		"proojeekt" N Sem/Act Cmp/SgNom Cmp #2->3
+: 
+"<ulmen>"
+	"ulme" N Sem/Semcon Ess @ADVL> #3->4
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #4->0
+: 
+"<ovdediđ>"
+	"ovdediđ" V TV Inf @<SUBJ #5->4
+: 
+"<säämimuseo>"
+	"museo" N Sem/Build_Org Sg Gen @>N #6->7
+		"säämi" N Sem/Hum_Lang Cmp/SgGen Err/Orth Cmp #6->7
+: 
+"<siskáldâsâid>"
+	"siskáldâs" N Sem/Semcon Pl Acc @-F<OBJ #7->5
+: 
+"<já>"
+	"já" CC @CNP #8->7
+: 
+"<toimâmvuovijd>"
+	"vyehi" N Sem/Feat Pl Acc @-F<OBJ #9->7
+		"toimâm" N Sem/Dummytag Cmp/SgNom Cmp #9->7
+: 
+"<sehe>"
+	"sehe" Adv @<ADVL #10->4
+: 
+"<pyevtittiđ>"
+	"pyevtittiđ" <mv> V IV Inf @IMV #11->5
+: 
+"<uđđâ>"
+	"uuđâs" A Attr @>N #12->13
+: 
+"<tiäđu>"
+	"tiätu" N Sem/Prod-cogn_Txt Sg Acc @<OBJ #13->11
+: 
+"<Suomâ>"
+	"Suomâ" N Prop Sem/Plc Sg Gen @>N #14->15
+: 
+"<sämikulttuurij>"
+	"sämikulttuur" N Sem/Domain Pl Gen @>P #15->16
+: 
+"<pirrâ>"
+	"pirrâ" Po @<ADVL #16->11
+"<.>"
+	"." CLB #17->4
+: 
+"<Jieččân>"
+	"jieš" Pron Refl Gen PxSg1 @>N #1->2
+: 
+"<projektij>"
+	"proojeekt" N Sem/Act Pl Gen @>P #2->3
+: 
+"<lasseen>"
+	"lasseen" Po @ADVL> #3->5
+: 
+"<mij>"
+	"mun" Pron Pers Pl1 Nom @SUBJ> #4->5
+: 
+"<lep>"
+	"leđe" <mv> V IV Ind Prs Pl1 @FMV #5->0
+: 
+"<mield>"
+	"mield" Adv @<ADVL #6->5
+: 
+"<ohtâsâšprojektijn>"
+	"proojeekt" N Sem/Act Pl Loc @<ADVL #7->5
+		"ohtâsâš" A Cmp/Attr Cmp #7->5
+: 
+"<tutkâmlájádâsâiguin>"
+	"lájádâs" N Sem/Org Pl Com @<ADVL #8->5
+		"tutkâm" N Sem/Dummytag Cmp/SgNom Cmp #8->5
+: 
+"<já>"
+	"já" CC @CNP #9->8
+: 
+"<mađhâšemtuáimeiguin>"
+	"tuáimee" N Sem/Dummytag NomAg Pl Com @<ADVL #10->8
+		"mađhâšem" N Sem/Act Cmp/SgNom Cmp #10->8
+"<.>"
+	"." CLB #11->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lasetiäđuh>"
+	"lasetiätu" N Sem/Prod-cogn_Txt Pl Nom @HNOUN #1->0
+: 
+"<projektij>"
+	"proojeekt" N Sem/Act Pl Gen @>P #2->3
+: 
+"<pirrâ>"
+	"pirrâ" Po @ADVL> #3->7
+"<:>"
+	":" CLB #4->1
+: 
+"<Museohovdâ>"
+	"hovdâ" N Sem/Hum Sg Nom @>N #5->6
+		"museo" N Sem/Build_Org Cmp/SgNom Cmp #5->6
+: 
+"<Sari>"
+	"Sari" N Prop Sem/Fem Attr @>N #6->7
+: 
+"<Valkonen>"
+	"Valkonen" N Prop Sem/Sur Sg Nom @HNOUN #7->1
+: 
+"<sari.valkonen(at)samimuseum.fi>"
+	"sari.valkonen(at)samimuseum.fi" URL #8->8
+: 
+"<Puh.>"
+	"puh" N ABBR Gram/TNumAbbr Attr @>Num #9->10
+: 
+"<040>"
+	"040" Num Arab Sem/ID @>Num #10->11
+: 
+"<767>"
+	"767" Num Arab Sg Nom @HNOUN #11->7
+: 
+"<1052>"
+	"1052" Num Arab Sem/Year Sg Nom @HNOUN #12->9
+:  
+"<¶>"
+	"¶" CLB #13->1
+:\n
+
+]]></dependency></body></document>

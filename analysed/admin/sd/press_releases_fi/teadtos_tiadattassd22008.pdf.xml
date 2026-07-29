@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Sämitige čuákkim 2/2008</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2008</year><wordcount>17</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.samediggi.fi/index.php?option=com_docman&amp;task=doc_download&amp;gid=345&amp;Itemid=10</origFileName><parallel_text xml:lang="fin" location="lmoitus_almmuhussd22008.pdf"/><parallel_text xml:lang="sme" location="lmoitus_almmuhussd22008.pdf"/><parallel_text xml:lang="sms" location="teadtos_tiadattassd22008.pdf"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 139793 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<čuákkim>"
+	"čuákkim" N Sem/Event Sg Nom @SUBJ> #2->6
+	"čuákkim" N Sem/Event Sg Gen @ADVL> #2->6
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<2/2008>"
+	"2/2008" Num Arab Sem/ID @X #4->0
+"<)>"
+	")" PUNCT RIGHT #5->6
+: 
+"<tuálloo>"
+	"toollâđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #6->0
+: 
+"<2.6.2008>"
+	"2.6.2008" Num Arab Sem/Date Sg Nom @<ADVL #7->6
+: 
+"<äälgin>"
+	"äälgin" ? @X #8->0
+: 
+"<tme>"
+	"tme" N ABBR Gram/TAbbr Sg Nom @<SUBJ #9->6
+: 
+"<10.00>"
+	"10.00" Num Arab Sem/Time-clock Sg Nom @<SUBJ #10->6
+: 
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #11->12
+: 
+"<čäällimkoddeest>"
+	"čäällimkodde" N Sem/Dummytag Sg Loc @<ADVL #12->6
+: 
+"<Anarist>"
+	"Aanaar" N Prop Sem/Plc Sg Loc @<ADVL #13->6
+"<.>"
+	"." CLB #14->6
+: 
+"<Čuákkim>"
+	"čuákkim" N Sem/Event Sg Gen @>N #1->2
+: 
+"<äššilisto>"
+	"äššilisto" N Sem/Txt Sg Nom @SUBJ> #2->3
+: 
+"<postâduvvoo>"
+	"postâdiđ" Ex/V TV Der/Pass <mv> V Ind Prs Sg3 @FMV #3->0
+: 
+"<majemustáá>"
+	"majemustáá" Adv @<ADVL #4->3
+: 
+"<ohhoost>"
+	"okko" N Sem/Measr_Time Sg Loc @<ADVL #5->3
+: 
+"<21.>"
+	"21" A Arab Ord Attr @<ADVL #6->3
+: 
+"<¶>"
+	"¶" CLB #7->3
+:\n
+
+]]></dependency></body></document>

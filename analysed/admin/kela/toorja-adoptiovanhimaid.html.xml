@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Toorjâ adoptiovanhimáid - kela.fi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2019</year><wordcount>89</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="fin"/></multilingual><origFileName>https://www.kela.fi/toorja-adoptiovanhimaid</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Other>"
+	"Other" ? @X #1->0
+: 
+"<languages>"
+	"languages" ? @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Anarâškielân>"
+	"anarâškielâ" N Sem/Lang Sg Ill @<ADVL #1->1
+: 
+"</>"
+	"/" PUNCT MIDDLE #2->1
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Pärniperruuh>"
+	"peerâ" N Sem/Group_Hum Pl Nom @HNOUN #1->0
+		"pärni" N Sem/Hum Cmp/SgNom Cmp #1->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Toorjâ>"
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+: 
+"<adoptiovanhimáid>"
+	"vanhim" N Sem/Hum Pl Ill @<ADVL #2->1
+		"adoptio" N Sem/Dummytag Cmp/SgNom Cmp #2->1
+	"vanhimeh" N Sem/Dummytag Pl Ill @<ADVL #2->1
+		"adoptio" N Sem/Dummytag Cmp/SgNom Cmp #2->1
+: 
+"</>"
+	"/" PUNCT MIDDLE #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Toorjâ>"
+	"toorjâ" N Sem/Money Sg Nom @HNOUN #1->0
+: 
+"<adoptiovaanhimáid>"
+	"vaanhim" N Sem/Hum Pl Ill @<ADVL #2->1
+		"adoptio" N Sem/Dummytag Cmp/SgNom Cmp #2->1
+	"vaanhimeh" N Sem/Hum Pl Ill @<ADVL #2->1
+		"adoptio" N Sem/Dummytag Cmp/SgNom Cmp #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Kela>"
+	"Kela" N Prop Sem/Org ACR Sg Nom @SUBJ> #1->2
+	"Kela" N Prop Sem/Sur Sg Nom @SUBJ> #1->2
+: 
+"<tuárju>"
+	"tuárjuđ" <mv> V TV Ind Prs Sg3 @FMV #2->0
+: 
+"<adoptiopäärni>"
+	"adoptiopärni" N Sem/Hum Sg Gen @>N #3->4
+: 
+"<vaanhimijd>"
+	"vaanhim" N Sem/Hum Pl Acc @<OBJ #4->2
+	"vaanhimeh" N Sem/Hum Pl Acc @<OBJ #4->2
+: 
+"<masa>"
+	"masa" Adv @<ADVL #5->2
+	"masa" Pcle @PCLE #5->2
+	"massa" N Sem/Dummytag Sg Gen @<ADVL #5->2
+: 
+"<siämmáánáál>"
+	"siämmáánáál" Adv @<ADVL #6->2
+: 
+"<ko>"
+	"ko" CS @CNP #7->6
+: 
+"<biologisijd>"
+	"biologisâš" A Pl Acc @<OBJ #8->2
+: 
+"<vaanhimijd>"
+	"vaanhim" N Sem/Hum Pl Acc @APP-N< #9->5
+	"vaanhimeh" N Sem/Hum Pl Acc @APP-N< #9->5
+"<.>"
+	"." CLB #10->2
+: 
+"<Adoptiovaanhimeh>"
+	"vaanhim" N Sem/Hum Pl Nom @SUBJ> #1->2
+		"adoptio" N Sem/Dummytag Cmp/SgNom Cmp #1->2
+	"vaanhimeh" N Sem/Hum Pl Nom @SUBJ> #1->2
+		"adoptio" N Sem/Dummytag Cmp/SgNom Cmp #1->2
+: 
+"<iä>"
+	"ij" <aux> V IV Neg Ind Pl3 @FAUX #2->0
+: 
+"<pyevti>"
+	"pyehtiđ" <mv> V TV Ind Prs ConNeg @IMV #3->2
+: 
+"<uážžuđ>"
+	"uážžuđ" V TV Inf @<OBJ #4->3
+: 
+"<enijruuđâ>"
+	"enijruuđâ" ? @X #5->0
+"<,>"
+	"," CLB #6->7
+: 
+"<mutâ>"
+	"mutâ" CS @CVP #7->9
+: 
+"<sij>"
+	"sun" Pron Pers Pl3 Nom @SUBJ> #8->9
+: 
+"<uážžuh>"
+	"uážžuđ" <mv> V TV Ind Prs Pl3 @FS-<ADVL #9->3
+: 
+"<vaanhimijruuđâ>"
+	"ruttâ" N Sem/Money Sg Acc @<OBJ #10->9
+		"vaanhim" N Sem/Hum Cmp/PlGen Cmp #10->9
+	"ruttâ" N Sem/Money Sg Acc @<OBJ #10->9
+		"vaanhimeh" N Sem/Hum Cmp/PlGen Cmp #10->9
+: 
+"<kuhheeb>"
+	"kukke" Ex/A Der/Comp A Attr @X #11->0
+: 
+"<ääigi>"
+	"ääigi" Po @<ADVL #12->9
+: 
+"<ko>"
+	"ko" CS @CNP #13->12
+: 
+"<táválávt>"
+	"táválávt" Adv @<ADVL #14->12
+"<.>"
+	"." CLB #15->2
+: 
+"<Vaanhimijruttâ>"
+	"ruttâ" N Sem/Money Sg Nom @SUBJ> #1->2
+		"vaanhim" N Sem/Hum Cmp/PlGen Cmp #1->2
+	"ruttâ" N Sem/Money Sg Nom @SUBJ> #1->2
+		"vaanhimeh" N Sem/Hum Cmp/PlGen Cmp #1->2
+: 
+"<máksoo>"
+	"maksuđ" <mv> V Ind Prs Sg3 @FMV #2->0
+	"mäksiđ" Ex/V Ex/TV Der/Pass <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<ton>"
+	"tot" Pron Dem Sg Gen @>N #3->4
+: 
+"<peeivi>"
+	"peivi" N Sem/Time Sg Gen @>P #4->5
+: 
+"<rääjist>"
+	"rääjist" Po @<ADVL #5->2
+"<,>"
+	"," CLB #6->7
+: 
+"<ko>"
+	"ko" CS @CVP #7->9
+: 
+"<tun>"
+	"tun" Pron Pers Sg2 Nom @SUBJ> #8->9
+: 
+"<uážuh>"
+	"uážžuđ" <mv> V TV Ind Prs Sg2 @FS-<ADVL #9->2
+: 
+"<adoptiopäärni>"
+	"adoptiopärni" N Sem/Hum Sg Acc @<OBJ #10->9
+: 
+"<tuu>"
+	"tun" Pron Pers Sg2 Gen @>N #11->12
+: 
+"<tiipšon>"
+	"tipšo" N Sem/Hum Sg Ill @<ADVL #12->9
+"<.>"
+	"." CLB #13->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Adoptiopäärni>"
+	"adoptiopärni" N Sem/Hum Sg Gen @>N #1->2
+: 
+"<eeči>"
+	"eeči" N Sem/Hum Sg Nom @SUBJ> #2->3
+: 
+"<puáhtá>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg3 @FMV #3->0
+: 
+"<toollâđ>"
+	"toollâđ" V TV Inf @<OBJ #4->3
+: 
+"<ejijriijâ>"
+	"ejijriijâ" ? @X #5->0
+: 
+"<tego>"
+	"tego" Pcle @PCLE #6->5
+: 
+"<eres-uv>"
+	"eres" Pron Indef Attr Foc/uv @>N #7->8
+: 
+"<eejih>"
+	"eeči" N Sem/Hum Pl Nom @<SUBJ #8->3
+"<.>"
+	"." CLB #9->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Jis>"
+	"jis" CS @CVP #1->2
+: 
+"<adoptistáh>"
+	"adoptistiđ" <mv> V TV Ind Prs Sg2 @FMV #2->0
+: 
+"<päärni>"
+	"pärni" N Sem/Hum Sg Acc @<OBJ #3->2
+: 
+"<olgoenâmijn>"
+	"olgoeennâm" N Sem/Org Pl Loc @<ADVL #4->2
+"<,>"
+	"," CLB #5->6
+: 
+"<te>"
+	"te" Adv @<ADVL #6->8
+	"te" CS @CVP #6->8
+: 
+"<tun>"
+	"tun" Pron Pers Sg2 Nom @SUBJ> #7->8
+: 
+"<puávtáh>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg2 @FS-<ADVL #8->2
+: 
+"<uuccâđ>"
+	"uuccâđ" V TV Inf @<OBJ #9->8
+: 
+"<Kelast>"
+	"Kela" N Prop Sem/Sur Sg Loc @<ADVL #10->8
+: 
+"<torjuu>"
+	"toorjâ" N Sem/Money Sg Gen @>N #11->12
+: 
+"<adoptio>"
+	"adoptio" N Sem/Dummytag Sg Nom @<SUBJ #12->8
+: 
+"<koloid>"
+	"kolo" N Sem/Money Pl Acc @APP-N< #13->12
+"<.>"
+	"." CLB #14->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Luuvâ>"
+	"luuhâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+	"luuppâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<lase>"
+	"lase" Adv @<ADVL #2->3
+	"lase" N Sem/Amount Sg Gen @>N #2->3
+: 
+"<adoptiotorjuu>"
+	"toorjâ" N Sem/Money Sg Gen @>N #3->4
+		"adoptio" N Sem/Dummytag Cmp/SgNom Cmp #3->4
+: 
+"<ucâmist>"
+	"uuccâm" N Sem/Dummytag Sg Loc @<ADVL #4->1
+: 
+"<(>"
+	"(" PUNCT LEFT #5->6
+"<suomâkielân>"
+	"suomâkielâ" N Sem/Lang Sg Ill @<ADVL #6->1
+"<)>"
+	")" PUNCT RIGHT #7->6
+"<.>"
+	"." CLB #8->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

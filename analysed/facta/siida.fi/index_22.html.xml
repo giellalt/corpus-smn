@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Luándukuávdáš – Siida</title><genre code="facta"/><author><unknown/></author><wordcount>90</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://siida.fi/anaraskiela/luandukuavdas/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Mij>"
+	"mun" Pron Pers Pl1 Nom @SUBJ> #1->2
+: 
+"<lep>"
+	"leđe" <mv> V IV Ind Prs Pl1 @FMV #2->0
+: 
+"<áávus>"
+	"áávus" Adv @<ADVL #3->2
+: 
+"<10>"
+	"10" Num Arab Sem/Time-clock Sg Nom @<ADVL #4->2
+: 
+"<- 17>"
+	"- 17" Num Arab Sem/ID @<ADVL #5->2
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<Uusâ>"
+	"uuccâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+	"uussâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @HNOUN #1->0
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @HNOUN #1->0
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #1->0
+: 
+"<Siida>"
+	"Siida" N Prop Sem/Plc Sg Gen @>P #2->3
+: 
+"<peht>"
+	"peht" Po @ADVL #3->0
+: 
+"<Tave-Laapi>"
+	"Lappi" N Prop Sem/Plc Sg Gen @>N #4->5
+		"Tave" N Prop Cmp/Hyph Cmp #4->5
+: 
+"<luándufeerimij>"
+	"feerim" N Sem/Perc-emo Err/Orth Pl Gen @>P #5->6
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #5->6
+: 
+"<luus>"
+	"luus" Po @ADVL #6->0
+: 
+"<¶>"
+	"¶" CLB #7->1
+:\n
+"<Meccihaldâttâs>"
+	"meccihaldâttâs" N Sem/Dummytag Sg Gen @>N #1->2
+: 
+"<luándukuávdááh>"
+	"kuávdáš" N Sem/Plc Pl Nom @SUBJ> #2->3
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #2->3
+: 
+"<láá>"
+	"leđe" <mv> V IV Ind Prs Pl3 @FMV #3->0
+: 
+"<maaŋgâpiälásiih>"
+	"maaŋgâpiälásâš" A Pl Nom @X #4->0
+: 
+"<kollimsajeh>"
+	"saje" N Sem/Plc Pl Nom @<SUBJ #5->3
+		"kollim" N Sem/Dummytag Cmp/SgNom Cmp #5->3
+: 
+"<já>"
+	"já" CC @CNP #6->5
+: 
+"<luándutiäđu>"
+	"tiätu" N Sem/Prod-cogn_Txt Sg Gen @<ADVL #7->3
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #7->3
+: 
+"<feerimiih>"
+	"feerimiih" ? @X #8->0
+: 
+"<käldeeh>"
+	"käldee" N Sem/Plc_Txt Pl Nom @<SUBJ #9->3
+"<.>"
+	"." CLB #10->3
+: 
+"<Mij>"
+	"mun" Pron Pers Pl1 Nom @SUBJ> #1->2
+: 
+"<movtijdittep>"
+	"movtijdittiđ" <mv> V Ind Prs Pl1 @FMV #2->0
+: 
+"<ulmuid>"
+	"olmooš" N Sem/Hum Pl Ill @<ADVL #3->2
+: 
+"<lihâdiđ>"
+	"lihâdiđ" V IV Inf @<ADVL #4->2
+: 
+"<já>"
+	"já" CC @CVP #5->2
+: 
+"<virkosmiđ>"
+	"virkosmiđ" <mv> V IV Inf @IMV #6->4
+: 
+"<luándust>"
+	"luándu" N Sem/Feat-psych_Plc Sg Loc @<ADVL #7->6
+"<.>"
+	"." CLB #8->2
+: 
+"<Luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @SUBJ> #1->3
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #1->3
+: 
+"<Siida>"
+	"Siida" N Prop Sem/Plc Sg Nom @SUBJ> #2->3
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<Meccihaldâttâs>"
+	"meccihaldâttâs" N Sem/Dummytag Sg Nom @<SUBJ #4->6
+	"meccihaldâttâs" N Sem/Dummytag Sg Gen @>N #4->6
+: 
+"<tavemus>"
+	"tavemus" Ex/A Der/Superl A Attr @>N #5->6
+: 
+"<luándukuávdáš>"
+	"kuávdáš" N Sem/Plc Sg Nom @<SUBJ #6->3
+		"luándu" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #6->3
+: 
+"<já>"
+	"já" CC @CVP #7->3
+: 
+"<mij>"
+	"mun" Pron Pers Pl1 Nom @SUBJ> #8->9
+: 
+"<toimâp>"
+	"toimâđ" <mv> V IV Ind Prs Pl1 @FMV #9->3
+: 
+"<ohtsâšpargoost>"
+	"ohtsâšpargo" N Sem/Dummytag Sg Loc @<ADVL #10->9
+: 
+"<Säämimuseo>"
+	"museo" N Sem/Build_Org Sg Gen @>N #11->12
+		"säämi" N Sem/Hum_Lang Cmp/SgGen Err/Orth Cmp #11->12
+: 
+"<Siidain>"
+	"Siida" N Prop Sem/Sur Sg Com @<ADVL #12->9
+"<.>"
+	"." CLB #13->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eres>"
+	"eres" Pron Indef Attr @>N #1->2
+	"eres" Pron Indef Sg Nom @SUBJ> #1->2
+: 
+"<Tave-Laapi>"
+	"Lappi" N Prop Sem/Plc Sg Gen @>N #2->3
+		"Tave" N Prop Cmp/Hyph Cmp #2->3
+: 
+"<kuávlust>"
+	"kuávlu" N Sem/Plc Sg Loc @ADVL> #3->7
+: 
+"<palvâleijee>"
+	"palvâleijee" N Sem/Hum NomAg Sg Gen @>N #4->5
+: 
+"<Meccihaldâttâs>"
+	"meccihaldâttâs" N Sem/Dummytag Sg Gen @>N #5->6
+: 
+"<äššigâspalvâlemsajeh>"
+	"saje" N Sem/Plc Pl Nom @SUBJ> #6->7
+		"palvâlem" N Sem/Dummytag Cmp/SgNom Cmp #6->7
+			"äššigâs" N Sem/Hum Cmp/SgNom Cmp #6->7
+: 
+"<láá>"
+	"leđe" <mv> V IV Ind Prs Pl3 @FMV #7->0
+: 
+"<Avveel>"
+	"Avveel" N Prop Sem/Plc Sg Gen @>N #8->9
+: 
+"<palvâlemsaje>"
+	"saje" N Sem/Plc Sg Gen @>N #9->12
+		"palvâlem" N Sem/Dummytag Cmp/SgNom Cmp #9->12
+	"saje" N Sem/Plc Sg Nom @<SUBJ #9->12
+		"palvâlem" N Sem/Dummytag Cmp/SgNom Cmp #9->12
+: 
+"<já>"
+	"já" CC @CNP #10->9
+: 
+"<Suáluičielgi>"
+	"Suáluičielgi" N Prop Sem/Plc Sg Gen @>N #11->12
+: 
+"<palvâlemsaje>"
+	"saje" N Sem/Plc Sg Nom @<SUBJ #12->7
+		"palvâlem" N Sem/Dummytag Cmp/SgNom Cmp #12->7
+: 
+"<Kiehinen>"
+	"Kiehinen" N Prop Sem/Sur Sg Nom @<SUBJ #13->7
+: 
+"<.>"
+	"." CLB #14->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Meccihaldâttâs>"
+	"meccihaldâttâs" N Sem/Dummytag Sg Gen @>N #1->2
+: 
+"<äššigâspalvâlem>"
+	"palvâlem" N Sem/Dummytag Sg Nom @HNOUN #2->0
+		"äššigâs" N Sem/Hum Cmp/SgNom Cmp #2->0
+: 
+"<Siidast>"
+	"Siida" N Prop Sem/Plc Sg Loc @ADVL> #3->7
+"<:>"
+	":" CLB #4->2
+: 
+"<Puh.>"
+	"puh" N ABBR Gram/TNumAbbr Attr @>Num #5->6
+: 
+"<0206>"
+	"0206" Num Arab Sem/ID @>Num #6->7
+: 
+"<39>"
+	"39" Num Arab Sg Nom @HNOUN #7->2
+: 
+"<7740>"
+	"7740" Num Arab Par @>N #8->9
+: 
+"<vuo>"
+	"vuo" N ABBR Sg Gen @>N #9->5
+	"vuo" N ABBR Sg Nom @HNOUN #9->5
+: 
+"<–>"
+	"–" PUNCT MIDDLE #10->11
+: 
+"<láv>"
+	"láv" N ABBR Attr @>N #11->12
+	"láv" N ABBR Sg Gen @>N #11->12
+: 
+"<tme>"
+	"tme" N ABBR Gram/TAbbr Attr @>Num #12->13
+: 
+"<10 – 17>"
+	"10 – 17" Num Arab Sem/ID @>N #13->15
+: 
+"<(>"
+	"(" PUNCT LEFT #14->15
+"<pas>"
+	"pas" N ABBR Sg Nom @<SPRED #15->7
+: 
+"<kiddâ>"
+	"kiddâ" Adv @<ADVL #16->9
+"<)>"
+	")" PUNCT RIGHT #17->16
+: 
+"<siida(at)metsa.fi>"
+	"siida(at)metsa.fi" URL #18->18
+: 
+"<Lundui.fi>"
+	"Lundui.fi" URL #19->19
+:  
+"<¶>"
+	"¶" CLB #20->2
+:\n
+"<Eräluvat-palvâlemnummeer>"
+	"Eräluvat-palvâlemnummeer" ? @X #1->0
+: 
+"<:>"
+	":" CLB #2->5
+: 
+"<Puh>"
+	"puh" N ABBR Gram/TNumAbbr Attr @>Num #3->4
+: 
+"<020>"
+	"020" Num Arab Sem/ID @>Num #4->5
+: 
+"<69>"
+	"69" Num Arab Sg Nom @HNOUN #5->0
+: 
+"<2424>"
+	"2424" Num Arab Sem/Year Sg Nom @HNOUN #6->3
+: 
+"<vuo-vás>"
+	"vuo-vás" ? @X #7->0
+: 
+"<tijme>"
+	"tijme" N Sem/Measr_Time Sg Gen @Num< #8->3
+	"tijme" N Sem/Measr_Time Sg Nom @HNOUN #8->3
+: 
+"<09-16>"
+	"09-16" Num Arab Sem/Time-clock Span Sg Nom @HNOUN #9->8
+: 
+"<Šleđgâpostâ>"
+	"šleđgâpostâ" N Sem/Txt Sg Nom @HNOUN #10->8
+"<:>"
+	":" CLB #11->5
+: 
+"<eraluvat(at)metsa.fi>"
+	"eraluvat(at)metsa.fi" URL #12->12
+: 
+"<www.eraluvat.fi>"
+	"www.eraluvat.fi" URL #13->13
+:  
+"<¶>"
+	"¶" CLB #14->5
+:\n
+
+]]></dependency></body></document>

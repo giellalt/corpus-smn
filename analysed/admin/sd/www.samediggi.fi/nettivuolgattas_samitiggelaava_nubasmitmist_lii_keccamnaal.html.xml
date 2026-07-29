@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Nettivuolgâttâs sämitiggelaavâ nubásmitmist lii keččâmnáál - Samediggi</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>2021</year><wordcount>46</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://www.samediggi.fi/2021/06/10/neahttasatta-samediggelaga-nuppastusas-lea-geahccanlahkai/?lang=an</origFileName><parallel_text xml:lang="fin" location="verkkolahetys_saamelaiskarajalain_muutoksesta_on_katsottavissa.html"/><parallel_text xml:lang="sme" location="neahttasatta_samediggelaga_nuppastusas_lea_geahccanlahkai.html"/><parallel_text xml:lang="sms" location="ne_ttvuolttos_saa_mte_gglaa_jj_muttsest_lij_kioccamnalla.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Nettivuolgâttâs>"
+	"vuolgâttâs" N Sem/Dummytag Sg Gen @>N #1->2
+		"netti" N Sem/Dummytag Cmp/SgNom Cmp #1->2
+: 
+"<sämitiggelaavâ>"
+	"laahâ" N Sem/Rule Sg Gen @ADVL> #2->4
+		"tigge" N Sem/Org Cmp/SgNom Cmp #2->4
+			"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #2->4
+: 
+"<nubásmitmist>"
+	"nubásmittiđ" V Actio Loc @<ADVL #3->3
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #4->0
+: 
+"<keččâmnáál>"
+	"náál" Adv @<ADVL #5->4
+		"keččâđ" V TV Actio Nom Cmp #5->4
+: 
+"<¶>"
+	"¶" CLB #6->4
+:\n
+"<Nettivuolgâttâsâst>"
+	"vuolgâttâs" N Sem/Dummytag Sg Loc @ADVL> #1->27
+		"netti" N Sem/Dummytag Cmp/SgNom Cmp #1->27
+: 
+"<Sämitige>"
+	"Sämitigge" N Prop Sem/Plc Sg Gen @>N #2->3
+: 
+"<iävtuttâs>"
+	"iävtuttâs" N Sem/Prod-ling Sg Gen @>P #3->4
+: 
+"<vuáđuld>"
+	"vuáđuld" Po @ADVL> #4->27
+: 
+"<nomâttum>"
+	"nomâttiđ" Ex/V TV Der/Pass V PrfPrc @>N #5->6
+: 
+"<sämitiggelahâtoimâkode>"
+	"kodde" N Sem/Ani Sg Gen @>N #6->7
+		"toimâ" N Sem/Act Cmp/SgNom Cmp #6->7
+			"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+				"sämitigge" Ex/N Sem/Org Der/Dimin N Cmp/SgGen Cmp #6->7
+	"kodde" N Sem/Ani Sg Gen @>N #6->7
+		"toimâ" N Sem/Act Cmp/SgNom Cmp #6->7
+			"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+				"sämitigge" N Sem/Org Cmp/SgNom Cmp #6->7
+	"toimâkodde" N Sem/Org Sg Gen @>N #6->7
+		"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+			"sämitigge" N Sem/Org Cmp/SgNom Cmp #6->7
+	"toimâkodde" N Sem/Org Sg Gen @>N #6->7
+		"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+			"tigge" N Sem/Org Cmp/SgNom Cmp #6->7
+				"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #6->7
+	"kodde" N Sem/Ani Sg Gen @>N #6->7
+		"toimâ" N Sem/Act Cmp/SgNom Cmp #6->7
+			"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+				"tigge" Ex/N Sem/Org Der/Dimin N Cmp/SgGen Cmp #6->7
+					"säämi" N Sem/Hum_Lang Cmp/SgGen Cmp #6->7
+	"kodde" N Sem/Ani Sg Gen @>N #6->7
+		"toimâ" N Sem/Act Cmp/SgNom Cmp #6->7
+			"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+				"tigge" N Sem/Org Cmp/SgNom Cmp #6->7
+					"säämi" N Sem/Hum_Lang Cmp/SgGen Cmp #6->7
+	"toimâkodde" N Sem/Org Sg Gen @>N #6->7
+		"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+			"tigge" N Sem/Org Cmp/SgNom Cmp #6->7
+				"säämi" N Sem/Hum_Lang Cmp/SgGen Cmp #6->7
+	"kodde" N Sem/Ani Sg Gen @>N #6->7
+		"toimâ" N Sem/Act Cmp/SgNom Cmp #6->7
+			"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+				"tigge" Ex/N Sem/Org Der/Dimin N Cmp/SgGen Cmp #6->7
+					"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #6->7
+	"kodde" N Sem/Ani Sg Gen @>N #6->7
+		"toimâ" N Sem/Act Cmp/SgNom Cmp #6->7
+			"laahâ" N Sem/Rule Cmp/SgNom Cmp #6->7
+				"tigge" N Sem/Org Cmp/SgNom Cmp #6->7
+					"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #6->7
+: 
+"<jesâneh>"
+	"jeessân" N Sem/Hum Pl Nom @SUBJ> #7->27
+: 
+"<Tuomas>"
+	"Tuomas" N Prop Sem/Mal Attr @>N #8->9
+: 
+"<Aslak>"
+	"Aslak" N Prop Sem/Mal Attr @>N #9->10
+: 
+"<Juuso>"
+	"Juuso" N Prop Sem/Sur Sg Gen @>N #10->27
+	"Juuso" N Prop Sem/Sur Sg Nom @SUBJ> #10->27
+: 
+"<,>"
+	"," CLB #11->10
+: 
+"<Anne>"
+	"Anne" N Prop Sem/Fem Attr @>N #12->13
+: 
+"<Nuorgam>"
+	"Nuorgam" N Prop Sem/Sur Sg Gen @>N #13->10
+	"Nuorgam" N Prop Sem/Sur Sg Nom @SUBJ> #13->10
+: 
+"<,>"
+	"," CLB #14->13
+: 
+"<Pirita>"
+	"Pirita" N Prop Sem/Fem Attr @>N #15->16
+: 
+"<Näkkäläjärvi>"
+	"Näkkäläjärvi" N Prop Sem/Sur Sg Nom @SUBJ> #16->10
+	"Näkkäläjärvi" N Prop Sem/Sur Sg Gen @>N #16->10
+: 
+"<,>"
+	"," CLB #17->16
+: 
+"<Martin>"
+	"Martin" N Prop Sem/Mal Attr @>N #18->19
+: 
+"<Scheinin>"
+	"Scheinin" N Prop Sem/Sur Sg Gen @>N #19->10
+	"Scheinin" N Prop Sem/Sur Sg Nom @SUBJ> #19->10
+: 
+"<já>"
+	"já" CC @CNP #20->19
+: 
+"<Kalle>"
+	"kalle" Num Sg Acc @>N #21->22
+: 
+"<Varis>"
+	"Varis" N Prop Sem/Sur Sg Gen @>N #22->24
+: 
+"<sehe>"
+	"sehe" Adv @ADVL> #23->27
+: 
+"<värijeessân>"
+	"jeessân" N Sem/Hum Sg Nom @>N #24->25
+		"vääri" N Sem/Dummytag Cmp/SgNom Cmp #24->25
+	"jeessân" N Sem/Hum Sg Acc @OBJ> #24->25
+		"vääri" N Sem/Dummytag Cmp/SgNom Cmp #24->25
+: 
+"<Anni>"
+	"Anni" N Prop Sem/Fem Attr @>N #25->26
+: 
+"<Koivisto>"
+	"Koivisto" N Prop Sem/Sur Sg Gen @ADVL> #26->27
+: 
+"<västideh>"
+	"västidiđ" <mv> V TV Ind Prs Pl3 @FMV #27->0
+: 
+"<koččâmuššáid>"
+	"koččâmuš" N Sem/Dummytag Pl Ill @<ADVL #28->27
+: 
+"<sämitiggelaavâ>"
+	"laahâ" N Sem/Rule Sg Acc @<OBJ #29->27
+		"tigge" N Sem/Org Cmp/SgNom Cmp #29->27
+			"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #29->27
+: 
+"<nubásmitmist>"
+	"nubásmittiđ" V Actio Loc @<ADVL #30->27
+"<.>"
+	"." CLB #31->27
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Nettivuolgâttâs>"
+	"vuolgâttâs" N Sem/Dummytag Sg Nom @SUBJ> #1->2
+		"netti" N Sem/Dummytag Cmp/SgNom Cmp #1->2
+: 
+"<puáhtá>"
+	"pyehtiđ" <mv> V TV Ind Prs Sg3 @FMV #2->0
+: 
+"<keččâđ>"
+	"keččâđ" V TV Inf @<OBJ #3->2
+: 
+"<meid>"
+	"meid" Adv @<ADVL #4->2
+: 
+"<suomâkielân>"
+	"suomâkielâ" N Sem/Lang Sg Ill @<ADVL #5->2
+"<:>"
+	":" CLB #6->2
+: 
+"<https://youtu.be/nW6gEHHdX1Q>"
+	"https://youtu.be/nW6gEHHdX1Q" URL #7->7
+: 
+"<¶>"
+	"¶" CLB #8->2
+:\n
+"<Luuvâ>"
+	"luuhâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+	"luuppâđ" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<lase>"
+	"lase" Adv @<ADVL #2->1
+	"lase" N Sem/Amount Sg Gen @>N #2->1
+: 
+"<sämitiggelaavâ>"
+	"laahâ" N Sem/Rule Sg Gen @<ADVL #3->1
+		"tigge" N Sem/Org Cmp/SgNom Cmp #3->1
+			"säämi" N Sem/Hum_Lang Cmp/SgNom Cmp #3->1
+: 
+"<nubásmitmist>"
+	"nubásmittiđ" V Actio Loc @<ADVL #4->1
+"<:>"
+	":" CLB #5->1
+: 
+"<https://www.samediggi.fi/samitiggelaava-nubasmittem/?lang=an>"
+	"https://www.samediggi.fi/samitiggelaava-nubasmittem/?lang=an" URL #6->6
+: 
+"<¶>"
+	"¶" CLB #7->1
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="smn" id="no_id"><header><title>Säämi kielâtaho</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="fin"/><year>unknown</year><wordcount>46</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.samediggi.fi/index.php?option=com_docman&amp;task=doc_download&amp;gid=1416&amp;Itemid=10</origFileName><parallel_text xml:lang="fin" location="palkinto_diplomi_kaara_2.pdf"/><parallel_text xml:lang="sme" location="palkinto_diplomi_kaara_2.pdf"/><parallel_text xml:lang="sms" location="palkinto_diplomi_kaara_2.pdf"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 139793 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Säämi>"
+	"Säämi" N Prop Sem/Plc Sg Gen @>N #1->2
+	"säämi" N Sem/Hum_Lang Sg Gen @>N #1->2
+: 
+"<kielâtaho>"
+	"taho" N Sem/Act Sg Nom @SUBJ> #2->0
+		"kielâ" N Sem/Lang_Tool Cmp/SgNom Cmp #2->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+"<palhâšume>"
+	"palhâšume" N Sem/Prod Sg Nom @SUBJ> #4->5
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #5->0
+: 
+"<säämi>"
+	"säämi" N Sem/Hum_Lang Sg Gen @>N #6->7
+: 
+"<tyeji>"
+	"tyeji" N Sem/Domain Sg Nom @<SUBJ #7->5
+"<,>"
+	"," CLB #8->9
+: 
+"<mon>"
+	"mii" Pron Rel Sg Acc Known @OBJ> #9->12
+: 
+"<rähtee>"
+	"rähtee" N Sem/Hum Sg Nom @SUBJ> #10->11
+: 
+"<lii>"
+	"leđe" <aux> V IV Ind Prs Sg3 @FS-N< #11->7
+: 
+"<valjim>"
+	"valjiđ" <mv> V TV PrfPrc @FS-N<IMV #12->11
+: 
+"<Sami>"
+	"Sami" N Prop Sem/Mal Sg Gen @<ADVL #13->17
+	"Sami" N Prop Sem/Mal Sg Nom @SUBJ> #13->17
+: 
+"<Duo-dji>"
+	"Duo-dji" ? @X #14->0
+: 
+"<ry.>"
+	"ry" N ABBR Gram/IAbbr Attr @>N #15->16
+	"ry" N ABBR Gram/IAbbr Sg Gen @>N #15->16
+: 
+"<Palhâšume>"
+	"palhâšume" N Sem/Prod Sg Nom @SUBJ> #16->17
+: 
+"<lii>"
+	"leđe" <aux> V IV Ind Prs Sg3 @FAUX #17->5
+: 
+"<tyeji>"
+	"tyeji" N Sem/Domain Sg Nom @<SUBJ #18->17
+"<,>"
+	"," CLB #19->18
+: 
+"<suáhipäähist>"
+	"päkki" N Sem/Mat Sg Loc @X #20->0
+		"suáhi" N Sem/Plant Cmp/SgNom Cmp #20->0
+: 
+"<rahtum>"
+	"rahtuđ" V IV PrfPrc @>N #21->22
+	"rähtiđ" Ex/V Ex/TV Der/Pass V IV PrfPrc @>N #21->22
+: 
+"<kääri>"
+	"kääri" N Sem/Ctain Sg Nom @<SUBJ #22->18
+: 
+"<já>"
+	"já" CC @CVP #23->17
+: 
+"<ton>"
+	"tot" Pron Dem Sg Gen @X #24->0
+: 
+"<lii>"
+	"leđe" <aux> V IV Ind Prs Sg3 @FAUX #25->5
+: 
+"<ráhtám>"
+	"rähtiđ" <mv> V TV PrfPrc @IMV #26->25
+: 
+"<tuáijár>"
+	"tuáijár" N Sem/Hum Sg Acc @<OBJ #27->26
+"<,>"
+	"," CLB #28->27
+: 
+"<lehtor>"
+	"lehtor" N Sem/Hum Sg Gen @<ADVL #29->25
+	"lehtor" N Sem/Hum Sg Nom @<SUBJ #29->25
+: 
+"<ilmari>"
+	"ilmari" ? @X #30->0
+: 
+"<laiti>"
+	"laiti" ? @X #31->0
+: 
+"<Anarist>"
+	"Aanaar" N Prop Sem/Plc Sg Loc @<ADVL #32->29
+"<.>"
+	"." CLB #33->2
+: 
+"<Kääri>"
+	"kääri" N Sem/Ctain Sg Nom @SUBJ> #1->2
+: 
+"<lii>"
+	"leđe" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<muorâst>"
+	"muorâ" N Sem/Mat_Plant Sg Loc @<ADVL #3->2
+: 
+"<rahtum>"
+	"rahtuđ" V IV PrfPrc @>N #4->5
+	"rähtiđ" Ex/V Ex/TV Der/Pass V IV PrfPrc @>N #4->5
+: 
+"<purrâmâšlitte>"
+	"litte" N Sem/Ctain Sg Nom @<SUBJ #5->2
+		"purrâmâš" N Sem/Food Cmp/SgNom Cmp #5->2
+"<.>"
+	"." CLB #6->2
+: 
+"<Sämmilijn>"
+	"sämmilâš" N Sem/Hum Pl Loc @ADVL> #1->4
+: 
+"<láá>"
+	"leđe" <aux> V IV Ind Prs Pl3 @FAUX #2->0
+: 
+"<ärbivuáválávt>"
+	"ärbivuáválâš" Ex/A Der/AAdv Adv @ADVL> #3->4
+: 
+"<lamaš>"
+	"leđe" <mv> V IV PrfPrc @IMV #4->2
+: 
+"<maaŋgah>"
+	"maŋgâ" Num Pl Nom @SUBJ> #5->6
+	"maŋgâ" Pron Indef Pl Nom @SUBJ> #5->6
+: 
+"<käärih>"
+	"kaarrâđ" <mv> V IV Ind Prs Pl3 @FMV #6->2
+: 
+"<jieškote-uv>"
+	"jieškote" Pron Indef Sg Nom Foc/uv @<SUBJ #7->6
+: 
+"<purrâmâšâi>"
+	"purrâmâš" N Sem/Food Pl Gen @>N #8->9
+: 
+"<siäilutmân>"
+	"siäiluttiđ" Ex/V TV Der/NomAct N Sg Ill @<ADVL #9->6
+: 
+"<tâi>"
+	"tâi" CC @CNP #10->9
+: 
+"<fálusin>"
+	"fálusin" ? @X #11->0
+: 
+"<piejâmân>"
+	"pieijâđ" Ex/V TV Der/NomAct N Sg Ill @<ADVL #12->9
+"<.>"
+	"." CLB #13->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>
